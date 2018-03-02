@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Non-Standard Discount Info" section_id="579b27bbdb920340aca3f7adae9619f1" sys_domain="global" table="x_saghs_jp_qtm_ii_shikakari_list" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_for_quo.non_standard_app_approval_no</element>
+            <position>0</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>bc5b5da5dbe20740f9857195ae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_for_quo.non_standard_discount_amount</element>
+            <position>1</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>345b5da5dbe20740f9857195ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_for_quo.non_standard_discount_rate</element>
+            <position>2</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>b45b5da5dbe20740f9857195ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>385b5da5dbe20740f9857195ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_for_quo.non_standard_application_reason</element>
+            <position>4</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>b85b5da5dbe20740f9857195ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_list_for_quo.u_non_standard_discount_other_reason</element>
+            <position>5</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-20 07:20:42</sys_created_on>
+            <sys_id>3c5b5da5dbe20740f9857195ae96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 07:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Non-Standard Discount Info</caption>
+            <header>false</header>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 07:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>579b27bbdb920340aca3f7adae9619f1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Non-Standard Discount Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_section_579b27bbdb920340aca3f7adae9619f1</sys_update_name>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-28 02:17:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

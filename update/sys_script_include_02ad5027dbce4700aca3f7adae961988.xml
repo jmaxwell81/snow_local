@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_saghs_jp_qtm.Quotation_PDF_Builder</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Quotation_PDF_Builder</name>
+        <script><![CDATA[var Quotation_PDF_Builder = Class.create();
+Quotation_PDF_Builder.prototype = {
+    initialize: function(pdfRecord) {
+		
+		var logo = "blah"; //pic
+		var html = '';
+		html = u_pdf_html+'';
+		
+		var pdfDoc = new global.GeneralPDF.Document(false,null,null,html,'a4',logo);
+		this.doc = new global.GeneralPDF(pdfDoc);
+		//gs.info("created this.doc");
+		this.doc.setDocTempleInfo(logo,null,null,null,null,'a4');
+		//gs.info("setTemplate");
+		this.doc.startHTMLParser();
+		this.doc.addHTML(html);
+		this.doc.stopHTMLParser();
+		//gs.info("Have parsed HTML");
+		this.pdf = this.doc.get();
+		
+		var atmnt = new global.GeneralPDF.Attachment();
+		atmnt.setTableName(pdfRecord.getTableName());    
+		atmnt.setTableId(pdfRecord.sys_id);    
+		atmnt.setName(pdfRecord.u_title+".pdf");    
+		atmnt.setType('application/pdf');    
+		atmnt.setBody(this.pdf); 
+		//gs.info("Have created atmnt");
+		var ach = global.GeneralPDF.attach(atmnt);
+		//gs.info("Have done attach");
+	
+    },
+
+    type: 'Quotation_PDF_Builder'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-01 11:41:33</sys_created_on>
+        <sys_id>02ad5027dbce4700aca3f7adae961988</sys_id>
+        <sys_mod_count>96</sys_mod_count>
+        <sys_name>Quotation_PDF_Builder</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_include_02ad5027dbce4700aca3f7adae961988</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-09 03:15:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Domestic Procurement Info" max_length="40" name="x_saghs_jp_qtm_domestic_proc_info" type="collection">
+        <element label="Domestic Procurement" max_length="32" name="u_domestic_prod" reference="alm_hardware" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var amt = Math.floor(current.u_unit_price * current.u_multiplier) * current.u_no_units;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return amt;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Line Total" max_length="40" name="u_line_total" type="integer" virtual="true"/>
+        <element default="1.25" label="Cost Multiplier" max_length="16" name="u_multiplier" type="decimal"/>
+        <element label="Quantity" max_length="40" name="u_no_units" type="integer"/>
+        <element display="true" label="Procurement Item" max_length="20" name="u_procure_item" type="string"/>
+        <element label="Quotation Number" max_length="32" name="u_quote_no" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Unit Price" max_length="20" name="u_unit_price" type="decimal"/>
+        <index name="index">
+            <element name="u_quote_no"/>
+        </index>
+        <index name="index2">
+            <element name="u_domestic_prod"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="88e1c1dbdbb5c300aca3f7adae961997" sys_domain="global" table="x_saghs_jp_qtm_other" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quote_no</element>
+            <position>0</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>14345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other_name</element>
+            <position>1</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>94345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>18345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_unit_price</element>
+            <position>3</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>98345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_no_units</element>
+            <position>4</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>1c345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_line_total</element>
+            <position>5</position>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-11-13 07:03:12</sys_created_on>
+            <sys_id>9c345153db528f00f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_other" sys_domain="global" view="Default view">88e1c1dbdbb5c300aca3f7adae961997</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-13 07:03:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_saghs_jp_qtm_other</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 09:11:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88e1c1dbdbb5c300aca3f7adae961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_other</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_section_88e1c1dbdbb5c300aca3f7adae961997</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-19 09:11:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

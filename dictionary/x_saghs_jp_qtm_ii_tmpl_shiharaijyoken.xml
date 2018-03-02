@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp shiharaijyoken" max_length="40" name="x_saghs_jp_qtm_ii_tmpl_shiharaijyoken" type="collection">
+        <element attributes="import_attribute_name=PayT,edge_encryption_enabled=true" label="PayT" max_length="40" name="u_payt" type="string"/>
+        <element attributes="import_attribute_name=shiharaijyoken,edge_encryption_enabled=true" label="shiharaijyoken" max_length="50" name="u_shiharaijyoken" type="string"/>
+    </element>
+</database>

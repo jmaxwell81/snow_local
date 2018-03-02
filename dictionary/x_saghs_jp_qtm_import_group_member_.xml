@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Import Group Member " max_length="40" name="x_saghs_jp_qtm_import_group_member_" type="collection">
+        <element attributes="import_attribute_name=GID,edge_encryption_enabled=true" label="GID" max_length="40" name="u_gid" type="string"/>
+        <element attributes="import_attribute_name=Group,edge_encryption_enabled=true" label="Group" max_length="40" name="u_group" type="string"/>
+        <element attributes="import_attribute_name=ID,edge_encryption_enabled=true" label="ID" max_length="40" name="u_id" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_nam0" type="string"/>
+        <element attributes="import_attribute_name=name,edge_encryption_enabled=true" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=TEL,edge_encryption_enabled=true" label="TEL" max_length="40" name="u_tel" type="string"/>
+    </element>
+</database>

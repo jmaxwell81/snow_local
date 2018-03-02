@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="gratis_approval_number" label="無償申請承認番号" language="ja" table="x_saghs_jp_qtm_ii_shikakari_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>gratis_approval_number</element>
+            <help/>
+            <hint/>
+            <label>無償申請承認番号</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <plural>無償申請承認番号</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Ueta.Takafumi</sys_created_by>
+            <sys_created_on>2017-11-14 04:55:37</sys_created_on>
+            <sys_id>0d90c623db12cf00aca3f7adae96198e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>無償申請承認番号</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_ii_shikakari_list_gratis_approval_number_ja</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 10:27:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_saghs_jp_qtm_quote_template" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="x_saghs_jp_qtm_quote_template" element="NULL" name="x_saghs_jp_qtm_quote_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a63e7881db6e8340f9857195ae961977</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_id>2e3e7881db6e8340f9857195ae961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_active</element>
+            <list_id display_value="x_saghs_jp_qtm_quote_template" element="NULL" name="x_saghs_jp_qtm_quote_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a63e7881db6e8340f9857195ae961977</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_id>ae3e7881db6e8340f9857195ae961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_body</element>
+            <list_id display_value="x_saghs_jp_qtm_quote_template" element="NULL" name="x_saghs_jp_qtm_quote_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a63e7881db6e8340f9857195ae961977</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_id>223e7881db6e8340f9857195ae961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_page_size</element>
+            <list_id display_value="x_saghs_jp_qtm_quote_template" element="NULL" name="x_saghs_jp_qtm_quote_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a63e7881db6e8340f9857195ae961977</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_id>a23e7881db6e8340f9857195ae961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_table</element>
+            <list_id display_value="x_saghs_jp_qtm_quote_template" element="NULL" name="x_saghs_jp_qtm_quote_template" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a63e7881db6e8340f9857195ae961977</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_id>263e7881db6e8340f9857195ae961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:56:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a63e7881db6e8340f9857195ae961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_quote_template</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_list_x_saghs_jp_qtm_quote_template_null</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:56:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

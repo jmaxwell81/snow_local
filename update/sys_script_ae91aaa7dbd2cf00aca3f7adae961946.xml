@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_saghs_jp_qtm_quotation</collection>
+        <condition>!current.u_fl_number_master.nil() &amp;&amp; !current.u_fl_number_master.account.nil()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_saghs_jp_qtm_quotation">u_fl_number_masterISNOTEMPTY^EQ<item endquery="false" field="u_fl_number_master" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>(SNJ)Copy Hospital name</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	current.hospital_name = current.u_fl_number_master.account.name;
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Miki Keiichi</sys_created_by>
+        <sys_created_on>2017-11-14 07:20:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae91aaa7dbd2cf00aca3f7adae961946</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>(SNJ)Copy Hospital name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_ae91aaa7dbd2cf00aca3f7adae961946</sys_update_name>
+        <sys_updated_by>Geishin.Ro</sys_updated_by>
+        <sys_updated_on>2017-11-20 02:11:41</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae91aaa7dbd2cf00aca3f7adae961946"/>
+</record_update>

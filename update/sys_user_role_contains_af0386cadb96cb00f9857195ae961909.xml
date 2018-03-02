@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_saghs_jp_qtm._user" name="x_saghs_jp_qtm._user">cfb66bb6db3d8300aca3f7adae961997</contains>
+        <role display_value="x_saghs_jp_qtm.cs" name="x_saghs_jp_qtm.cs">16dd6b3ddb9a8b00f9857195ae96190b</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-11-09 13:15:33</sys_created_on>
+        <sys_id>af0386cadb96cb00f9857195ae961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_saghs_jp_qtm._user.x_saghs_jp_qtm.cs</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_user_role_contains_af0386cadb96cb00f9857195ae961909</sys_update_name>
+        <sys_updated_by>Ina Shinya</sys_updated_by>
+        <sys_updated_on>2017-11-09 13:15:33</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

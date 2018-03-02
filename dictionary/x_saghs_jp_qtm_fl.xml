@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="fl" max_length="40" name="x_saghs_jp_qtm_fl" sizeclass="14614" type="collection">
+        <element attributes="import_attribute_name=base_discount_rate,edge_encryption_enabled=true" label="base_discount_rate" max_length="40" name="u_base_discount_rate" type="string"/>
+        <element attributes="import_attribute_name=bill_to,edge_encryption_enabled=true" label="bill_to" max_length="40" name="u_bill_to" type="string"/>
+        <element attributes="import_attribute_name=bill_to_address,edge_encryption_enabled=true" label="bill_to_address" max_length="40" name="u_bill_to_address" type="string"/>
+        <element attributes="import_attribute_name=bill_to_code" label="bill_to_code" max_length="40" name="u_bill_to_code" type="float"/>
+        <element attributes="import_attribute_name=bill_to_comment,edge_encryption_enabled=true" label="bill_to_comment" max_length="40" name="u_bill_to_comment" type="string"/>
+        <element attributes="import_attribute_name=bill_to_dep,edge_encryption_enabled=true" label="bill_to_dep" max_length="40" name="u_bill_to_dep" type="string"/>
+        <element attributes="import_attribute_name=bill_to_person,edge_encryption_enabled=true" label="bill_to_person" max_length="84" name="u_bill_to_person" type="string"/>
+        <element attributes="import_attribute_name=customer_code,edge_encryption_enabled=true" label="customer_code" max_length="40" name="u_customer_code" type="string"/>
+        <element attributes="import_attribute_name=customer_dep,edge_encryption_enabled=true" label="customer_dep" max_length="40" name="u_customer_dep" type="string"/>
+        <element attributes="import_attribute_name=customer_person,edge_encryption_enabled=true" label="customer_person" max_length="40" name="u_customer_person" type="string"/>
+        <element attributes="import_attribute_name=customer_superscription,edge_encryption_enabled=true" label="customer_superscription" max_length="40" name="u_customer_superscription" type="string"/>
+        <element attributes="import_attribute_name=FL,edge_encryption_enabled=true" label="FL" max_length="40" name="u_fl" type="string"/>
+        <element attributes="import_attribute_name=Old_FL,edge_encryption_enabled=true" label="Old_FL" max_length="40" name="u_old_fl" type="string"/>
+    </element>
+</database>

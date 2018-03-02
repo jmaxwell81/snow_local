@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_tel" label="TEL" language="en" table="x_saghs_jp_qtm_import_group_member_">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_tel</element>
+            <help/>
+            <hint/>
+            <label>TEL</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_import_group_member_</name>
+            <plural>TELs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-26 04:32:37</sys_created_on>
+            <sys_id>251ec605db9f0f00aca3f7adae9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TEL</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_import_group_member__u_tel_en</sys_update_name>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-26 04:32:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

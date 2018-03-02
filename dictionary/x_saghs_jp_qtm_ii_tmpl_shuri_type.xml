@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp shuri type" max_length="40" name="x_saghs_jp_qtm_ii_tmpl_shuri_type" type="collection">
+        <element attributes="import_attribute_name=buhintehaihi" label="Parts Arrangement Cost" max_length="40" name="u_buhintehaihi" type="integer"/>
+        <element attributes="import_attribute_name=jikan tai,edge_encryption_enabled=true" label="jikan tai" max_length="40" name="u_jikan_tai" type="string"/>
+        <element attributes="import_attribute_name=shotaiouhi" label="Initial work cost" max_length="40" name="u_shotaiouhi" type="integer"/>
+        <element attributes="import_attribute_name=shuri type,edge_encryption_enabled=true" label="shuri type" max_length="40" name="u_shuri_type" type="string"/>
+    </element>
+</database>

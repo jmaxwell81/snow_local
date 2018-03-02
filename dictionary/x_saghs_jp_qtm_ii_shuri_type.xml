@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Time designation" max_length="40" name="x_saghs_jp_qtm_ii_shuri_type" type="collection">
+        <element label="部品手配費" max_length="40" name="u_buhintehaihi" read_only="true" type="integer"/>
+        <element label="Work Hours" max_length="40" name="u_jikan_tai" type="string"/>
+        <element label="Order" max_length="40" name="u_order" type="integer"/>
+        <element label="初回対応費" max_length="40" name="u_shotaiouhi" read_only="true" type="integer"/>
+        <element display="true" label="Time designation type" max_length="40" name="u_shuri_type" type="string"/>
+    </element>
+</database>

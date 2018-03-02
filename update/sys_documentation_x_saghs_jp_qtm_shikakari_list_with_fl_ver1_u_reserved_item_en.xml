@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reserved_item" label="Reserved Item" language="en" table="x_saghs_jp_qtm_shikakari_list_with_fl_ver1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reserved_item</element>
+            <help/>
+            <hint/>
+            <label>Reserved Item</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_shikakari_list_with_fl_ver1</name>
+            <plural>Reserved Items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 13:21:18</sys_created_on>
+            <sys_id>0eedf0c8dba60340aca3f7adae961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reserved Item</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_shikakari_list_with_fl_ver1_u_reserved_item_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 13:21:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

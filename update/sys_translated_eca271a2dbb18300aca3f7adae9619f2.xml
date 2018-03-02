@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>Quotation Management</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-10-17 04:49:22</sys_created_on>
+        <sys_id>eca271a2dbb18300aca3f7adae9619f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Quotation Management</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_translated_eca271a2dbb18300aca3f7adae9619f2</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-10-17 04:50:00</sys_updated_on>
+        <value>QUotation Management</value>
+    </sys_translated>
+</record_update>

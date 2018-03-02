@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="その他" max_length="40" name="x_saghs_jp_qtm_other" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var amt = current.u_unit_price * current.u_no_units;&#13;&#10;&#9;return amt;  // return the calculated value&#13;&#10;&#9;&#13;&#10;})(current);" label="Line Total" max_length="20" name="u_line_total" type="decimal" virtual="true"/>
+        <element label="Quantity" max_length="40" name="u_no_units" type="integer"/>
+        <element display="true" label="Others" max_length="64" name="u_other_name" type="string"/>
+        <element label="Quotation Number" max_length="32" name="u_quote_no" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Unit Price" max_length="20" name="u_unit_price" type="decimal"/>
+        <index name="index">
+            <element name="u_quote_no"/>
+        </index>
+    </element>
+</database>

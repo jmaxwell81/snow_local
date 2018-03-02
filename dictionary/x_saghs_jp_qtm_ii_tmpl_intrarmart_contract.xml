@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Intrarmart Contract" max_length="40" name="x_saghs_jp_qtm_ii_tmpl_intrarmart_contract" sizeclass="25917" type="collection">
+        <element attributes="import_attribute_name=Alert,edge_encryption_enabled=true" label="Alert" max_length="40" name="u_alert" type="string"/>
+        <element attributes="import_attribute_name=Application Comments,edge_encryption_enabled=true" label="Application Comments" max_length="4000" name="u_application_comments" type="string"/>
+        <element attributes="import_attribute_name=Auto Renewal State,edge_encryption_enabled=true" label="Auto Renewal State" max_length="40" name="u_auto_renewal_state" type="string"/>
+        <element attributes="import_attribute_name=Auto Renewal (New),edge_encryption_enabled=true" label="Auto Renewal (New)" max_length="40" name="u_auto_renewal__new_" type="string"/>
+        <element attributes="import_attribute_name=Business Line,edge_encryption_enabled=true" label="Business Line" max_length="40" name="u_business_line" type="string"/>
+        <element attributes="import_attribute_name=Category (pre-Status),edge_encryption_enabled=true" label="Category (pre-Status)" max_length="40" name="u_category__pre_status_" type="string"/>
+        <element attributes="import_attribute_name=Commercial Remark,edge_encryption_enabled=true" label="Commercial Remark" max_length="4000" name="u_commercial_remark" type="string"/>
+        <element attributes="import_attribute_name=Contract Amt,edge_encryption_enabled=true" label="Contract Amt" max_length="40" name="u_contract_amt" type="string"/>
+        <element attributes="import_attribute_name=Contract Breakdown ID,edge_encryption_enabled=true" label="Contract Breakdown ID" max_length="40" name="u_contract_breakdown_id" type="string"/>
+        <element attributes="import_attribute_name=Contract Category,edge_encryption_enabled=true" label="Contract Category" max_length="40" name="u_contract_category" type="string"/>
+        <element attributes="import_attribute_name=Contract Code,edge_encryption_enabled=true" label="Contract Code" max_length="40" name="u_contract_code" type="string"/>
+        <element attributes="import_attribute_name=Contract Name,edge_encryption_enabled=true" label="Contract Name" max_length="100" name="u_contract_name" type="string"/>
+        <element attributes="import_attribute_name=Contract Remarks,edge_encryption_enabled=true" label="Contract Remarks" max_length="4000" name="u_contract_remarks" type="string"/>
+        <element attributes="import_attribute_name=Contract Status,edge_encryption_enabled=true" label="Contract Status" max_length="40" name="u_contract_status" type="string"/>
+        <element attributes="import_attribute_name=Customer ID,edge_encryption_enabled=true" label="Customer ID" max_length="40" name="u_customer_id" type="string"/>
+        <element attributes="import_attribute_name=Customer Name Short,edge_encryption_enabled=true" label="Customer Name Short" max_length="100" name="u_customer_name_short" type="string"/>
+        <element attributes="import_attribute_name=Days from Contract End,edge_encryption_enabled=true" label="Days from Contract End" max_length="40" name="u_days_from_contract_end" type="string"/>
+        <element attributes="import_attribute_name=Days from Warranty Start,edge_encryption_enabled=true" label="Days from Warranty Start" max_length="40" name="u_days_from_warranty_start" type="string"/>
+        <element attributes="import_attribute_name=Division,edge_encryption_enabled=true" label="Division" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=EOD,edge_encryption_enabled=true" label="EOD" max_length="40" name="u_eod" type="string"/>
+        <element attributes="import_attribute_name=EOS,edge_encryption_enabled=true" label="EOS" max_length="40" name="u_eos" type="string"/>
+        <element attributes="import_attribute_name=Equipment Name,edge_encryption_enabled=true" label="Equipment Name" max_length="100" name="u_equipment_name" type="string"/>
+        <element attributes="import_attribute_name=Equipment No.,edge_encryption_enabled=true" label="Equipment No." max_length="40" name="u_equipment_no_" type="string"/>
+        <element attributes="import_attribute_name=Expected Contract Month,edge_encryption_enabled=true" label="Expected Contract Month" max_length="40" name="u_expected_contract_month" type="string"/>
+        <element attributes="import_attribute_name=ex-Factory,edge_encryption_enabled=true" label="ex-Factory" max_length="40" name="u_ex_factory" type="string"/>
+        <element attributes="import_attribute_name=Functional Location,edge_encryption_enabled=true" label="Functional Location" max_length="40" name="u_functional_location" type="string"/>
+        <element attributes="import_attribute_name=im.Contract No,edge_encryption_enabled=true" label="im.Contract No" max_length="40" name="u_im_contract_no" type="string"/>
+        <element attributes="import_attribute_name=Installed on,edge_encryption_enabled=true" label="Installed on" max_length="40" name="u_installed_on" type="string"/>
+        <element attributes="import_attribute_name=Maintainance Contract Stage,edge_encryption_enabled=true" label="Maintenance Contract Stage" max_length="40" name="u_maintainance_contract_stage" type="string"/>
+        <element attributes="import_attribute_name=Maintainance Start Alert,edge_encryption_enabled=true" label="Maintenance Start Alert" max_length="40" name="u_maintainance_start_alert" type="string"/>
+        <element attributes="import_attribute_name=Marketing Remark,edge_encryption_enabled=true" label="Marketing Remark" max_length="4000" name="u_marketing_remark" type="string"/>
+        <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=Region Code,edge_encryption_enabled=true" label="Region Code" max_length="40" name="u_region_code" type="string"/>
+        <element attributes="import_attribute_name=Sales Office,edge_encryption_enabled=true" label="Sales Office" max_length="40" name="u_sales_office" type="string"/>
+        <element attributes="import_attribute_name=Sales Office Code,edge_encryption_enabled=true" label="Sales Office Code" max_length="40" name="u_sales_office_code" type="string"/>
+        <element attributes="import_attribute_name=Sales Rep.,edge_encryption_enabled=true" label="Sales Rep." max_length="40" name="u_sales_rep_" type="string"/>
+        <element attributes="import_attribute_name=SAP Contract Start Date (Latest),edge_encryption_enabled=true" label="SAP Contract Start Date (Latest)" max_length="40" name="u_sap_contract__date__latest0" type="string"/>
+        <element attributes="import_attribute_name=SAP Contract End Date (Latest),edge_encryption_enabled=true" label="SAP Contract End Date (Latest)" max_length="40" name="u_sap_contract__date__latest_" type="string"/>
+        <element attributes="import_attribute_name=SSA Remark,edge_encryption_enabled=true" label="SSA Remark" max_length="4000" name="u_ssa_remark" type="string"/>
+        <element attributes="import_attribute_name=SSE Comments,edge_encryption_enabled=true" label="SSE Comments" max_length="4000" name="u_sse_comments" type="string"/>
+        <element attributes="import_attribute_name=SSE Employee ID,edge_encryption_enabled=true" label="SSE Employee ID" max_length="40" name="u_sse_employee_id" type="string"/>
+        <element attributes="import_attribute_name=SSE Name,edge_encryption_enabled=true" label="SSE Name" max_length="100" name="u_sse_name" type="string"/>
+        <element attributes="import_attribute_name=SSM Comments,edge_encryption_enabled=true" label="SSM Comments" max_length="4000" name="u_ssm_comments" type="string"/>
+        <element attributes="import_attribute_name=Technical ID,edge_encryption_enabled=true" label="Technical ID" max_length="40" name="u_technical_id" type="string"/>
+        <element attributes="import_attribute_name=Update Status,edge_encryption_enabled=true" label="Update Status" max_length="40" name="u_update_status" type="string"/>
+        <element attributes="import_attribute_name=Warranty End Date,edge_encryption_enabled=true" label="Warranty End Date" max_length="40" name="u_warranty_end_date" type="string"/>
+        <element attributes="import_attribute_name=Warranty Start Date,edge_encryption_enabled=true" label="Warranty Start Date" max_length="40" name="u_warranty_start_date" type="string"/>
+    </element>
+</database>

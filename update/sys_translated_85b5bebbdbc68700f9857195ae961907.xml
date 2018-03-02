@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>Notification Dashboard</label>
+        <language>ja</language>
+        <name>sys_portal_page</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-11-02 17:10:30</sys_created_on>
+        <sys_id>85b5bebbdbc68700f9857195ae961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notification Dashboard</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_translated_85b5bebbdbc68700f9857195ae961907</sys_update_name>
+        <sys_updated_by>Ina Shinya</sys_updated_by>
+        <sys_updated_on>2017-11-02 17:10:30</sys_updated_on>
+        <value>Quotation Dashboard</value>
+    </sys_translated>
+</record_update>

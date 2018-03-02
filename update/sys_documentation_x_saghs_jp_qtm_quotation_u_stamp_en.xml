@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_stamp" label="Need stamp" language="en" table="x_saghs_jp_qtm_quotation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_stamp</element>
+            <help/>
+            <hint/>
+            <label>Need stamp</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <plural>Need stamps</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-06 08:54:07</sys_created_on>
+            <sys_id>c12a0c72db3a0300f9857195ae961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Need stamp</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quotation_u_stamp_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-06 08:54:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

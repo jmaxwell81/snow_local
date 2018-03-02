@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_main_notification</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Miki Keiichi</sys_created_by>
+        <sys_created_on>2017-11-13 10:52:07</sys_created_on>
+        <sys_id>4b7846d3db168f00f9857195ae961977</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_main_notification</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4b7846d3db168f00f9857195ae961977</sys_update_name>
+        <sys_updated_by>Miki Keiichi</sys_updated_by>
+        <sys_updated_on>2017-11-15 09:05:22</sys_updated_on>
+        <table>x_saghs_jp_qtm_quotation</table>
+        <ui_policy display_value="(SNJ) Set Notif mandatory if  after work  ">1bf74e93db168f00f9857195ae9619d7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

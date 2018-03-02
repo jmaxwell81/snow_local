@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_saghs_jp_qtm_labour_cost</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_saghs_jp_qtm_labour_cost">u_quote_no.u_dealer=false^EQ<item endquery="false" field="u_quote_no.u_dealer" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>(SNJ) Adjust Labour Cost Total</name>
+        <order>40</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	adjustLabourCostTotal();
+	
+	function adjustLabourCostTotal() {
+	var qr = new GlideRecord('x_saghs_jp_qtm_quotation');
+	qr.addQuery('sys_id',current.u_quote_no);
+	qr.query();
+	
+	if (qr.next()) {
+		var work_mins_n = current.u_work_hours.dateNumericValue() / 1000 / 60;
+		var work_mins_n_p = previous.u_work_hours.dateNumericValue() / 1000 / 60;
+		var work_mins_o = current.u_overtime_hours.dateNumericValue() / 1000 / 60;
+		var work_mins_o_p = previous.u_overtime_hours.dateNumericValue() / 1000 / 60;
+
+		var use_nHours_f = (Math.floor(work_mins_n/15)*15) / 60;
+		var use_nHours_f_p = (Math.floor(work_mins_n_p/15)*15) / 60;
+		var use_oHours_f = (Math.floor(work_mins_o/15)*15) / 60;
+		var use_oHours_f_p = (Math.floor(work_mins_o_p/15)*15) / 60;
+		
+		var rate_n = gs.getProperty("x_saghs_jp_qtm.work_rate_standard");
+		var rate_o = gs.getProperty("x_saghs_jp_qtm.work_rate_overtime");
+		var cCode = qr.u_grand_total.getSessionCurrencyCode();
+		
+		var total = 0;
+		var diff_n = Math.abs(parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p));
+		var diff_o = Math.abs(parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p)); 
+		
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) > 0 && diff_o == 0) {
+			total = parseFloat(qr.u_labour_total)+parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) < 0 && diff_o == 0) {
+			total = parseFloat(qr.u_labour_total)-parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) > 0 && diff_n == 0) {
+			total = parseFloat(qr.u_labour_total)+parseFloat(rate_o*diff_o);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) < 0 && diff_n == 0) {
+			total = parseFloat(qr.u_labour_total)-parseFloat(rate_o*diff_o);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) > 0 && parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) > 0) {
+			total = parseFloat(qr.u_labour_total)+parseFloat(rate_o*diff_o)+parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) > 0 && parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) < 0) {
+			total = parseFloat(qr.u_labour_total)-parseFloat(rate_o*diff_o)+parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) < 0 && parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) > 0) {
+			total = parseFloat(qr.u_labour_total)+parseFloat(rate_o*diff_o)-parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) < 0 && parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) < 0) {
+			total = parseFloat(qr.u_labour_total)-parseFloat(rate_o*diff_o)-parseFloat(rate_n*diff_n);
+			total = Math.floor(total);
+		}
+		if ((parseFloat(use_oHours_f)-parseFloat(use_oHours_f_p) == 0 && diff_o == 0) && (parseFloat(use_nHours_f)-parseFloat(use_nHours_f_p) == 0 && diff_n == 0)) {
+			total = qr.u_labour_total;
+		}
+		
+		//gs.info(total);
+		qr.u_labour_total.setValue(cCode+";"+total); 
+		qr.update();
+	}
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-01 06:47:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e59d5f5bdb0e4700aca3f7adae9619a3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>(SNJ) Adjust Labour Cost Total</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_e59d5f5bdb0e4700aca3f7adae9619a3</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-12-11 08:48:12</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e59d5f5bdb0e4700aca3f7adae9619a3"/>
+</record_update>

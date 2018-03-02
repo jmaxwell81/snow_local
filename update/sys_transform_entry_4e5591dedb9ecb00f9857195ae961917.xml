@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="fl_completion_data_transform_map_master">00259952dbdecb00f9857195ae9619de</map>
+        <reference_value_field/>
+        <source_field>u_bill_to_person</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_saghs_jp_qtm_fl_completion_data_set</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>Miki Keiichi</sys_created_by>
+        <sys_created_on>2017-11-10 04:34:19</sys_created_on>
+        <sys_id>4e5591dedb9ecb00f9857195ae961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bill_to_person</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_transform_entry_4e5591dedb9ecb00f9857195ae961917</sys_update_name>
+        <sys_updated_by>Miki Keiichi</sys_updated_by>
+        <sys_updated_on>2017-11-10 04:34:19</sys_updated_on>
+        <target_field>u_bill_to_person</target_field>
+        <target_table>x_saghs_jp_qtm_ii_f</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

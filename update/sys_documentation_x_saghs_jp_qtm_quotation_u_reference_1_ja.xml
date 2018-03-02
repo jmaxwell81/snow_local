@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reference_1" label="基準外申請承認済み支払条件" language="ja" table="x_saghs_jp_qtm_quotation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_1</element>
+            <help/>
+            <hint/>
+            <label>基準外申請承認済み支払条件</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <plural>基準外申請承認済み支払条件</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-16 01:26:22</sys_created_on>
+            <sys_id>dfd3e7c8db660340f9857195ae96195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>基準外申請承認済み支払条件</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quotation_u_reference_1_ja</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-16 01:26:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>mid-server</category>
+        <content><![CDATA[ <h1 class="title topictitle1">ECC queue</h1>  <div class="body conbody">  <p class="p"><span class="ph">The External Communication Channel (ECC) Queue is a      connection point between an instance and other systems that integrate with it, most commonly a      MID Server.</span>  </p>  <p class="p">The ECC queue contains records that are created during all stages        of discovery. Each record is essentially a message from the instance and another system,        classified as <span class="ph uicontrol">output</span>, or a message from the external system to the        instance, classified as <span class="ph uicontrol">input</span>. ECC queue records provide you with a        connected flow of probe and sensor activity, as well as the actual XML payload that is sent        to or from an instance.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:ECCQueueAccess&amp;version&#61;jakarta" target="_blank" rel="nofollow">Access the ECC queue</a></div></div></div></div>]]></content>
+        <last_sync>2018-03-01 15:39:12</last_sync>
+        <modifier>normal</modifier>
+        <name>ecc_queue_list-normal</name>
+        <page>ecc_queue_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-01 15:38:06</sys_created_on>
+        <sys_id>daa63f05dbfe0b00aca3f7adae961994</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ecc_queue_list-normal</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_content_daa63f05dbfe0b00aca3f7adae961994</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-01 15:39:12</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=daa63f05dbfe0b00aca3f7adae961994"/>
+</record_update>

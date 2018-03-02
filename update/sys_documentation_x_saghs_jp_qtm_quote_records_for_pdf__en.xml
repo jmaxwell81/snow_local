@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Quote Records for PDF" language="en" table="x_saghs_jp_qtm_quote_records_for_pdf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Quote Records for PDF</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_records_for_pdf</name>
+            <plural>Quote Records for PDFs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-27 00:50:21</sys_created_on>
+            <sys_id>a0db9cf5db428300aca3f7adae9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quote Records for PDF</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quote_records_for_pdf__en</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-27 00:50:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

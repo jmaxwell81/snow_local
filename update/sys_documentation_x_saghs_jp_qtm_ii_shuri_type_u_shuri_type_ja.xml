@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_shuri_type" label="時間指定タイプ" language="ja" table="x_saghs_jp_qtm_ii_shuri_type">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_shuri_type</element>
+            <help/>
+            <hint/>
+            <label>時間指定タイプ</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shuri_type</name>
+            <plural>時間指定タイプ</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-17 04:00:43</sys_created_on>
+            <sys_id>0487e56edb718300aca3f7adae961986</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>時間指定タイプ</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_ii_shuri_type_u_shuri_type_ja</sys_update_name>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-10 17:14:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_shizu_number" label="指図番号" language="ja" table="x_saghs_jp_qtm_ii_shikakari_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_shizu_number</element>
+            <help/>
+            <hint/>
+            <label>指図番号</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <plural>指図番号</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-19 01:59:09</sys_created_on>
+            <sys_id>d2de5f03dbb5c300f9857195ae9619fa</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>指図番号</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_ii_shikakari_list_u_shizu_number_ja</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 09:52:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

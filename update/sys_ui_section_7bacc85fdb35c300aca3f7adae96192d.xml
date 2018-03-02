@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Labour Cost Info" section_id="7bacc85fdb35c300aca3f7adae96192d" sys_domain="global" table="x_saghs_jp_qtm_quotation" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_saghs_jp_qtm_quotation.x_saghs_jp_qtm_labour_cost.u_quote_no</element>
+            <position>0</position>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-09 08:49:10</sys_created_on>
+            <sys_id>11168d4adb52cb00f9857195ae9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Labour Cost Info" display_value="Labour Cost Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">7bacc85fdb35c300aca3f7adae96192d</sys_ui_section>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-09 08:49:10</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Labour Cost Info</caption>
+            <header>false</header>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 05:19:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bacc85fdb35c300aca3f7adae96192d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Labour Cost Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_section_7bacc85fdb35c300aca3f7adae96192d</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-09 08:49:08</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

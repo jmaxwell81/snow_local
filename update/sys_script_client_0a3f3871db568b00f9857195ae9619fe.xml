@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>account</field>
+        <global>true</global>
+        <messages/>
+        <name>(SNJ) Hide Lists &amp; Sections on new</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+	//var ifFL = g_form.getValue('u_fl_number_master');		
+	
+	if (g_form.isNewRecord()) {
+		g_form.setValue('u_mitsumori_status','creating_quot');
+		g_form.hideRelatedLists();
+		var sections = g_form.getSectionNames();
+		var noSec = sections.length;
+		var x;
+		//alert(noSec);
+		for (x=0;x<noSec;x++) {
+			g_form.setSectionDisplay(sections[x]+'',false);
+			//alert(sections[x]+'');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-08 13:49:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a3f3871db568b00f9857195ae9619fe</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>(SNJ) Hide Lists &amp; Sections on new</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_client_0a3f3871db568b00f9857195ae9619fe</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-24 05:04:47</sys_updated_on>
+        <table>x_saghs_jp_qtm_quotation</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>12. 未請求(見積もり中/請求中)</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-11-05 15:48:51</sys_created_on>
+        <sys_id>08bf31b8dbd20b00f9857195ae9619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>12. 未請求(見積もり中/請求中)</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_translated_08bf31b8dbd20b00f9857195ae9619da</sys_update_name>
+        <sys_updated_by>Ina Shinya</sys_updated_by>
+        <sys_updated_on>2017-11-05 15:52:58</sys_updated_on>
+        <value>12.Unclaimed(Quotation In-progress)</value>
+    </sys_translated>
+</record_update>

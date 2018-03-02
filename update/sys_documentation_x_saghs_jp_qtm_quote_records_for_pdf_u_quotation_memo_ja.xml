@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_quotation_memo" label="見積メモ" language="ja" table="x_saghs_jp_qtm_quote_records_for_pdf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_quotation_memo</element>
+            <help/>
+            <hint/>
+            <label>見積メモ</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quote_records_for_pdf</name>
+            <plural>見積メモ</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-13 07:38:56</sys_created_on>
+            <sys_id>d41c3738dbcf0300aca3f7adae9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>見積メモ</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quote_records_for_pdf_u_quotation_memo_ja</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-13 07:38:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>account</field>
+        <global>true</global>
+        <messages/>
+        <name>(SNJ) Show msg and hide tab on unlock</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var unlocked = g_form.getValue('u_status_unlocked');
+	if(unlocked == 'true'){
+		g_form.addInfoMessage("ステータスのロックを解除しました。ステータス変更し、保存をしてください。");
+		var sections = g_form.getSectionNames();
+		var noSec = sections.length;
+		var x;
+		//alert(noSec);
+		for (x=0;x<noSec;x++) {
+			g_form.setSectionDisplay(sections[x]+'',false);
+			//alert(sections[x]+'');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Shinsaku Kudomi</sys_created_by>
+        <sys_created_on>2018-01-12 16:10:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b71fc4fedbeb0300aca3f7adae961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>(SNJ) Show msg and hide tab on unlock</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_client_b71fc4fedbeb0300aca3f7adae961988</sys_update_name>
+        <sys_updated_by>Shinsaku Kudomi</sys_updated_by>
+        <sys_updated_on>2018-01-12 16:18:23</sys_updated_on>
+        <table>x_saghs_jp_qtm_quotation</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

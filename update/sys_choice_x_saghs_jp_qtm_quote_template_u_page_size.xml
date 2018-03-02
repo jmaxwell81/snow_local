@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_page_size" table="x_saghs_jp_qtm_quote_template" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_page_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>A4</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <sequence>0</sequence>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b27e7881db6e8340f9857195ae9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:57:44</sys_updated_on>
+            <value>A4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_page_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <sequence>1</sequence>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f67e7881db6e8340f9857195ae9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:57:44</sys_updated_on>
+            <value>Legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_page_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Letter</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <sequence>2</sequence>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b67e7881db6e8340f9857195ae9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:57:44</sys_updated_on>
+            <value>Letter</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_page_size</element>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 15:57:44</sys_created_on>
+            <sys_id>b27e7881db6e8340f9857195ae9619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_page_size</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_quote_template_u_page_size</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 15:57:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

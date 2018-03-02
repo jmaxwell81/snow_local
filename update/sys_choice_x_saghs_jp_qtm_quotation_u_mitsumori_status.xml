@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_mitsumori_status" table="x_saghs_jp_qtm_quotation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書作成中</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:13:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ac8fc7ddb168b00f9857195ae96198f</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:06:49</sys_updated_on>
+            <value>creating_quot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>価格交渉中</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:14:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f09fc7ddb168b00f9857195ae9619a5</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:07:15</sys_updated_on>
+            <value>during_negotiations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書確認依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>2</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:14:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>002970bddb168b00f9857195ae9619d3</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:08:52</sys_updated_on>
+            <value>request_create_quot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書確認済</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>3</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:15:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd4934bddb168b00f9857195ae961988</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:09:14</sys_updated_on>
+            <value>checked_quotation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書提出済</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>4</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:18:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c269fc3ddb168b00f9857195ae961958</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:10:06</sys_updated_on>
+            <value>quotation_submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無償処理依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>5</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:19:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>583a3cbddb168b00f9857195ae9619a0</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-10 04:10:26</sys_updated_on>
+            <value>request_gratis_Process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>無償処理済</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>6</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:23:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca7ab8bddb168b00f9857195ae9619e0</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:38:01</sys_updated_on>
+            <value>completion_gratis_process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>基準外処理依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>7</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-22 02:33:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93fae686dba20300f9857195ae961919</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:38:05</sys_updated_on>
+            <value>request_non_standard_Process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>基準外処理済み</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>8</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-22 02:34:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39bc664adba20300f9857195ae961931</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:38:07</sys_updated_on>
+            <value>completion_non_standard_process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>顧客合意</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>9</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4edd7831db568b00f9857195ae961989</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:21</sys_updated_on>
+            <value>agreed_with_ customer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>保守契約締結待ち</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>10</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:36:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6edbc31db568b00f9857195ae9619da</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:25</sys_updated_on>
+            <value>waiting_maintenance_agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>請求書前確認依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>11</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:37:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>072e38fddb168b00f9857195ae9619d6</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:29</sys_updated_on>
+            <value>request_prior_confirmation_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>請求書作成依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>12</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:38:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb6e3c31db568b00f9857195ae961974</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:31</sys_updated_on>
+            <value>request_creation_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>請求書確認依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>13</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:39:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20de3071db568b00f9857195ae961915</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:33</sys_updated_on>
+            <value>request_check_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書・請求書送付依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>14</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:41:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3afef8fddb168b00f9857195ae961951</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:35</sys_updated_on>
+            <value>request_send_quot_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>見積書・請求書送付済</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>15</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d77f3071db568b00f9857195ae961927</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:37</sys_updated_on>
+            <value>completion_send_quot_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>コスト振替依頼</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>16</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:43:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14cfb071db568b00f9857195ae9619de</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:41</sys_updated_on>
+            <value>request_transfer_cost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>完了</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>17</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-08 13:44:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08ffbc71db568b00f9857195ae961984</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:29:46</sys_updated_on>
+            <value>process_completion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>creating_quot</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>100</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-09 03:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e2cf379dbda8b00f9857195ae96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:26:12</sys_updated_on>
+            <value>creating_quot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>during_negotiations</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>110</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-09 03:27:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf6cf779dbda8b00f9857195ae96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:27:20</sys_updated_on>
+            <value>during_negotiations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_create_quot</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>120</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:31:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e7dfbf9dbda8b00f9857195ae961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:31:55</sys_updated_on>
+            <value>request_create_quot</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>checked_quotation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>130</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:32:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2adbbf9dbda8b00f9857195ae9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:32:46</sys_updated_on>
+            <value>checked_quotation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>quotation_submitted</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>140</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:33:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50cd333ddbda8b00f9857195ae961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:33:09</sys_updated_on>
+            <value>quotation_submitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_gratis_Process</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>150</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:33:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41dd7ff9dbda8b00f9857195ae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:33:28</sys_updated_on>
+            <value>request_gratis_Process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>completion_gratis_process</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>160</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:33:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75ed333ddbda8b00f9857195ae9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:33:48</sys_updated_on>
+            <value>completion_gratis_process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_non_standard_Process</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>161</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-22 02:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>354daacadba20300f9857195ae9619d5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:37:03</sys_updated_on>
+            <value>request_non_standard_Process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>completion_non_standard_process</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>162</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-22 02:37:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e6d2ecadba20300f9857195ae961918</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-22 02:37:28</sys_updated_on>
+            <value>completion_non_standard_process</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>agreed_with_ customer</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>170</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:34:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4afdf33ddbda8b00f9857195ae961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:34:05</sys_updated_on>
+            <value>agreed_with_ customer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>waiting_maintenance_agreement</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>180</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:34:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f20ef33ddbda8b00f9857195ae9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:34:25</sys_updated_on>
+            <value>waiting_maintenance_agreement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_prior_confirmation_invoice</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>190</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:34:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb1e733ddbda8b00f9857195ae961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:34:42</sys_updated_on>
+            <value>request_prior_confirmation_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_creation_invoice</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>200</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:35:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>604eb73ddbda8b00f9857195ae961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:35:22</sys_updated_on>
+            <value>request_creation_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_check_invoice</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>210</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>885eb73ddbda8b00f9857195ae9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:35:35</sys_updated_on>
+            <value>request_check_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_send_quot_invoice</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>220</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>375e3b3ddbda8b00f9857195ae9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:35:51</sys_updated_on>
+            <value>request_send_quot_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>completion_send_quot_invoice</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>230</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:36:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>036e3b3ddbda8b00f9857195ae9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:36:05</sys_updated_on>
+            <value>completion_send_quot_invoice</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>request_transfer_cost</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>240</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:36:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e7ebb3ddbda8b00f9857195ae9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:36:20</sys_updated_on>
+            <value>request_transfer_cost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_mitsumori_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>process_completion</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>250</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 03:36:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa8ebb3ddbda8b00f9857195ae96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 03:36:36</sys_updated_on>
+            <value>process_completion</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_mitsumori_status</element>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-18 02:19:49</sys_created_on>
+            <sys_id>e7f95ef2db3d8300f9857195ae9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_mitsumori_status</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_quotation_u_mitsumori_status</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-18 02:19:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

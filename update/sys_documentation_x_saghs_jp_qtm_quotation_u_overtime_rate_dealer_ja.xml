@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_overtime_rate_dealer" label="Dealer単価_時間外" language="ja" table="x_saghs_jp_qtm_quotation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_overtime_rate_dealer</element>
+            <help/>
+            <hint/>
+            <label>Dealer単価_時間外</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <plural>Dealer単価_時間外</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-18 04:22:09</sys_created_on>
+            <sys_id>5bf53ab2db7d8300f9857195ae961911</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Dealer単価_時間外</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quotation_u_overtime_rate_dealer_ja</sys_update_name>
+            <sys_updated_by>Ueta.Takafumi</sys_updated_by>
+            <sys_updated_on>2017-11-09 07:54:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

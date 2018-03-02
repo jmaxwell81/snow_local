@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="tm_tester" name="tm_tester">f8da0052871121003706db5eb2e3ecfc</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-05 07:49:33</sys_created_on>
+        <sys_id>65c13a1adb324300aca3f7adae961984</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f8da0052871121003706db5eb2e3ecfc</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_65c13a1adb324300aca3f7adae961984</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-05 07:49:33</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

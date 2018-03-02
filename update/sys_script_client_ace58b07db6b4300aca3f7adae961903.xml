@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>bill_to</field>
+        <global>true</global>
+        <messages/>
+        <name>Show message when not latest</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	var quote_sys_id = g_form.getValue('u_quote_no');
+	var ga = new GlideAjax('x_saghs_jp_qtm.QuotePDFAjax');
+	ga.addParam('sysparm_name', 'getLatestPDFRecordForClient');
+	ga.addParam('sysparm_quote_sys_id', '' + quote_sys_id);
+	ga.getXML(checkLatest);
+	
+	function checkLatest(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		var this_sys_id = g_form.getUniqueValue();
+		
+		//alert("Answer: " + answer + ", This sysid: " + this_sys_id);
+		if(answer != this_sys_id){
+			g_form.addInfoMessage("最新のレコードでないため、PDF 作成は出来ません");
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Shinsaku Kudomi</sys_created_by>
+        <sys_created_on>2018-01-14 00:36:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ace58b07db6b4300aca3f7adae961903</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Show message when not latest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_client_ace58b07db6b4300aca3f7adae961903</sys_update_name>
+        <sys_updated_by>Shinsaku Kudomi</sys_updated_by>
+        <sys_updated_on>2018-01-14 00:39:31</sys_updated_on>
+        <table>x_saghs_jp_qtm_quote_records_for_pdf</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

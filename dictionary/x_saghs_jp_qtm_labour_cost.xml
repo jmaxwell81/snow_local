@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="作業費情報" max_length="40" name="x_saghs_jp_qtm_labour_cost" type="collection">
+        <element label="Finish Time" max_length="40" name="u_finish_time" type="glide_date_time"/>
+        <element attributes="max_unit=hours" label="Work Hours (Overtime)" max_length="40" name="u_overtime_hours" type="glide_duration"/>
+        <element label="Quotation Number" max_length="32" name="u_quote_no" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Work Start Time" max_length="40" name="u_start_time" type="glide_time"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Worker" max_length="32" name="u_worker" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element display="true" label="Work Date" max_length="40" name="u_work_day" type="glide_date"/>
+        <element attributes="max_unit=hours" label="Work Hours (Regular)" max_length="40" name="u_work_hours" type="glide_duration"/>
+        <index name="index">
+            <element name="u_quote_no"/>
+        </index>
+        <index name="index2">
+            <element name="u_worker"/>
+        </index>
+    </element>
+</database>

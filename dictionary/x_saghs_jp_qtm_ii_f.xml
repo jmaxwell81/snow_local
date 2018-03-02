@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="fl_completion_data" max_length="40" name="x_saghs_jp_qtm_ii_f" sizeclass="20087" type="collection">
+        <element label="bill to" max_length="40" name="bill_to" type="string"/>
+        <element label="base_discount_rate" max_length="20" name="u_base_discount_rate" read_only="true" type="decimal"/>
+        <element label="bill_to_address" max_length="40" name="u_bill_to_address" type="string"/>
+        <element display="true" label="bill_to_code" max_length="40" name="u_bill_to_code" reference="customer_account" type="reference"/>
+        <element label="bill_to_comment" max_length="300" name="u_bill_to_comment" type="string"/>
+        <element label="bill_to_dep" max_length="40" name="u_bill_to_dep" type="string"/>
+        <element label="bill_to_person" max_length="40" name="u_bill_to_person" type="string"/>
+        <element label="customer_code" max_length="40" name="u_customer_code" type="string"/>
+        <element label="customer_dep" max_length="40" name="u_customer_dep" type="string"/>
+        <element label="customer_person" max_length="40" name="u_customer_person" type="string"/>
+        <element label="Customer_Address" max_length="40" name="u_customer_superscription" type="string"/>
+        <element label="FL" max_length="40" name="u_fl" reference="alm_hardware" type="reference"/>
+        <element label="TECH_ID" max_length="40" name="u_old_fl" type="string"/>
+        <index name="index">
+            <element name="u_fl"/>
+        </index>
+    </element>
+</database>

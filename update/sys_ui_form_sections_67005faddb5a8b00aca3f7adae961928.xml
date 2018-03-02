@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="67005faddb5a8b00aca3f7adae961928" sys_domain="global" table="x_saghs_jp_qtm_ii_shikakari_list" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-08 05:35:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b005faddb5a8b00aca3f7adae96192b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Notification Basic Information " display_value="Notification Basic Information " name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">2b005faddb5a8b00aca3f7adae961925</sys_ui_section>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-08 05:36:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-13 05:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5edf78dfdbde4f00f9857195ae9619c2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-08 05:35:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b005faddb5a8b00aca3f7adae9619d4</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="FL Basic Info" display_value="FL Basic Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">2f005faddb5a8b00aca3f7adae961926</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-08 05:35:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af005faddb5a8b00aca3f7adae9619d0</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Notification Progress Info" display_value="Notification Progress Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961926</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-08 06:37:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>604e13e5db9a8b00aca3f7adae961909</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Sales Situation" display_value="Sales Situation" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">a44e1fa5db9a8b00aca3f7adae961938</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>Geishin.Ro</sys_created_by>
+            <sys_created_on>2017-11-09 04:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f8d4c02db56cb00aca3f7adae96193a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Activity" display_value="Activity" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">938d4c02db56cb00aca3f7adae961938</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 07:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b9b27bbdb920340aca3f7adae9619f4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_ii_shikakari_list" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">67005faddb5a8b00aca3f7adae961928</sys_ui_form>
+            <sys_ui_section caption="Non-Standard Discount Info" display_value="Non-Standard Discount Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">579b27bbdb920340aca3f7adae9619f1</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-20 04:58:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-08 05:35:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67005faddb5a8b00aca3f7adae961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_ii_shikakari_list</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_67005faddb5a8b00aca3f7adae961928</sys_update_name>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-08 05:35:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_gratis_application_reason" table="x_saghs_jp_qtm_ii_shikakari_list" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>0</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c80fc24db264340f9857195ae9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>CSE issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE対応 ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>0</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:16:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4745524dba64340f9857195ae9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:16:44</sys_updated_on>
+            <value>CSE issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call center issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>1</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc80fc24db264340f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Call center issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>コールセンター対応ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>1</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:17:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f48419e0dba64340f9857195ae961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:17:01</sys_updated_on>
+            <value>Call center issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contractor issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>2</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c80fc24db264340f9857195ae9619c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Contractor issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>業者ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>2</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:17:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7594d524dba64340f9857195ae9619c6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:19:30</sys_updated_on>
+            <value>Contractor issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer cancellation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>3</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:20:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e35d924dba64340f9857195ae9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:20:09</sys_updated_on>
+            <value>Customer cancellation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>顧客キャンセル</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>3</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d880fc24db264340f9857195ae9619c9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:17:45</sys_updated_on>
+            <value>Customer cancellation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No problem reproduced</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>4</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5880fc24db264340f9857195ae9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>No problem reproduced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>問題再現せず</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>4</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:21:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3651164dba64340f9857195ae96193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:21:01</sys_updated_on>
+            <value>No problem reproduced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recurrence during work and immediately after work</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>5</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d480fc24db264340f9857195ae9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Recurrence during work and immediately after work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作業中・作業直後の再発</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>5</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:21:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45951164dba64340f9857195ae961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:21:40</sys_updated_on>
+            <value>Recurrence during work and immediately after work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bug in UI / VU</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>6</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:22:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cc51564dba64340f9857195ae961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:22:27</sys_updated_on>
+            <value>Bug in UI / VU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UI / VU時の不具合</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>6</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5480fc24db264340f9857195ae9619cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:21:59</sys_updated_on>
+            <value>Bug in UI / VU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EoS</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>7</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:22:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfd5d164dba64340f9857195ae9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:22:54</sys_updated_on>
+            <value>EoS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EoS</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>7</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d080fc24db264340f9857195ae9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>EoS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Billing / Delay</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>8</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1880fc24db264340f9857195ae9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Billing / Delay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>請求もれ・遅れ</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>8</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87e51564dba64340f9857195ae96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:23:11</sys_updated_on>
+            <value>Billing / Delay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reason for negotiation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>9</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9480fc24db264340f9857195ae9619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Reason for negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>商談上の理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>9</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:23:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4406d164dba64340f9857195ae96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:23:31</sys_updated_on>
+            <value>Reason for negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reason for business negotiation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>10</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1480fc24db264340f9857195ae9619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Reason for business negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>営業買換え商談上の理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>10</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:24:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac369564dba64340f9857195ae96198a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:25:30</sys_updated_on>
+            <value>Reason for business negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate contract</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>11</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:26:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2396d564dba64340f9857195ae9619bd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:26:30</sys_updated_on>
+            <value>Inadequate contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>契約上の不備</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>11</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9080fc24db264340f9857195ae9619dd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:25:56</sys_updated_on>
+            <value>Inadequate contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment quality issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>12</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1080fc24db264340f9857195ae9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Equipment quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>装置品質上の問題</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>12</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:27:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8d611a4dba64340f9857195ae96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:27:07</sys_updated_on>
+            <value>Equipment quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parts quality issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>13</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c80fc24db264340f9857195ae9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Parts quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>パーツ品質上の問題</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>13</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:27:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4e651a4dba64340f9857195ae961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:27:22</sys_updated_on>
+            <value>Parts quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TVA reasons</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>14</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c80fc24db264340f9857195ae9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>TVA reasons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TVA 理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>14</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:27:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ef69d64dba64340f9857195ae9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:27:48</sys_updated_on>
+            <value>TVA reasons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Import transducer reason</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>15</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9880fc24db264340f9857195ae9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Import transducer reason</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>輸入transducer理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>15</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:28:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f17d1a4dba64340f9857195ae9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:28:22</sys_updated_on>
+            <value>Import transducer reason</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other reasons for Probe</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>16</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1880fc24db264340f9857195ae9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Other reasons for Probe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他プローベ理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>16</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:28:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>262711a4dba64340f9857195ae961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:28:36</sys_updated_on>
+            <value>Other reasons for Probe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Domestic Procurement issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>17</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9480fc24db264340f9857195ae9619e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:29:10</sys_updated_on>
+            <value>Domestic Procurement issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>国内品の不具合</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>17</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:28:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9737dd64dba64340f9857195ae9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:28:56</sys_updated_on>
+            <value>Domestic Procurement issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>18</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1480fc24db264340f9857195ae9619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>18</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 04:29:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>035795a4dba64340f9857195ae9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 04:29:27</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel only</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>19</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-11 02:07:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b79c1c58db074700aca3f7adae9619c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-11 02:07:23</sys_updated_on>
+            <value>Travel only</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gratis_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>トラベルオンリー</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sequence>19</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-11 02:07:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80fcdc58db074700aca3f7adae9619f6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-11 02:07:50</sys_updated_on>
+            <value>Travel only</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_gratis_application_reason</element>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-17 01:39:42</sys_created_on>
+            <sys_id>9880fc24db264340f9857195ae9619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_gratis_application_reason</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_ii_shikakari_list_u_gratis_application_reason</sys_update_name>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 01:39:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

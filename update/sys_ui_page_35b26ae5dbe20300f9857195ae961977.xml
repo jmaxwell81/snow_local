@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[addLoadEvent(function(){
+	
+	if (!gel('doc_template').value){
+		g_form.addErrorMessage(getMessage('The category or its corresponding PDF template is empty'));
+		return;
+	}
+	
+	var ga = new GlideAjax("global.genDoc_Ajax");
+	
+	ga.addParam("sysparm_name", "getDocumentBody");
+	ga.addParam("sysparm_reset", '');
+	ga.addParam("sysparm_sourceTable", gel('source_table').value);
+	ga.addParam("sysparm_sourceID", gel('source_sys_id').value);
+	ga.addParam("sysparm_templateTable", gel('template_table').value);
+	ga.addParam("sysparm_templateName", gel('template_name').value);
+	ga.getXMLAnswer(function(answer) {
+		gel('content_id').innerHTML = answer;
+		gel('content_id').focus();
+		if (answer == '')
+			gel('info_message').style.display = "block";
+	});
+});
+
+function disableOrEnableButton(){
+	if(gel('content_id').innerHTML.trim().length){
+		gel('save_button').disabled = false;
+		gel('ok_button').disabled = false;
+	}else{
+		gel('save_button').disabled = true;
+		gel('ok_button').disabled = true;
+	}
+	
+}
+function submitCancel() {
+	gel('info_message').style.display = "none";
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+
+function resetForm() {
+	var ga = new GlideAjax("global.genDoc_Ajax");
+	
+	ga.addParam("sysparm_name", "getDocumentBody");
+	ga.addParam("sysparm_reset", 'true');
+	ga.addParam("sysparm_sourceTable", gel('source_table').value);
+	ga.addParam("sysparm_sourceID", gel('source_sys_id').value);
+	ga.addParam("sysparm_templateTable", gel('template_table').value);
+	ga.addParam("sysparm_templateName", gel('template_name').value);
+	
+	ga.getXMLAnswer(function(answer) {
+		gel('content_id').innerHTML = answer;
+		gel('content_id').focus();
+		if (answer == '')
+			gel('info_message').style.display = "block";
+	});
+	
+	gel('info_message').style.color = "#4BD762";
+	gel('info_message').innerHTML = getMessage('The document body has been reset');
+	gel('info_message').style.display = "block";
+	return false;
+}
+
+function submitSave() {
+	setDocument();
+	gel('info_message').style.color = "#4BD762";
+	gel('info_message').innerHTML = getMessage('The document body has been saved');
+	gel('info_message').style.display = "block";
+	
+	return false;
+}
+
+function submitOk() {
+	if (gel('content_id').innerHTML){
+		gel('info_message').style.display = "none";
+		
+		setDocument();
+		var s = gel('submit_draft');
+		s.value = "true";
+		//something something something
+		
+		return true;
+	}else{
+		gel('info_message').style.color = "#FF402C";
+		gel('info_message').innerHTML = getMessage('The document body should not be empty');
+		gel('info_message').style.display = "block";
+	}
+	return false;
+}
+
+function setDocument(){
+	var ga = new GlideAjax("global.genDoc_Ajax");
+	
+	ga.addParam("sysparm_name", "setDocumentBody");
+	ga.addParam("sysparm_documentBody", gel('content_id').innerHTML);
+	ga.addParam("sysparm_table_name", gel('source_table').value);
+	ga.addParam("sysparm_table_id", gel('source_sys_id').value);
+	ga.addParam("sysparm_targetTable", gel('template_table').value);
+	ga.addParam("sysparm_targetId", gel('doc_template').value);
+	ga.getXMLAnswer(function(answer) {
+	});
+}]]></client_script>
+        <description>General Document UI Page.&#13;
+&#13;
+Show a template and draft of the PDF before allowing the admin to generate PDF.</description>
+        <direct>false</direct>
+        <endpoint>x_saghs_jp_qtm_Preview_document_dialog_v3.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" />
+<g:ui_form id="Preview document">
+	<style type="text/css">
+		#info_message {
+			position: absolute;
+			vertical-align:bottom;
+			left:20px;
+			font-style: italic;
+			display: none;
+		}
+	</style>	
+	<g2:evaluate var="jvar_sysId" expression="RP.getWindowProperties().get('sysparm_sysId')" />
+	<g2:evaluate var="jvar_sourcetable" expression="RP.getWindowProperties().get('sysparm_sourceTable')" />
+	<g2:evaluate var="jvar_templateTable" expression="RP.getWindowProperties().get('sysparm_templateTable')" />
+	<g2:evaluate var="jvar_templateName" expression="RP.getWindowProperties().get('sysparm_templateName')" />
+	<g2:evaluate var="jvar_fileName" expression="RP.getWindowProperties().get('sysparm_fileName')" />
+	
+	<input type="hidden" id="source_sys_id" name="source_sys_id" value="${sysparm_sysId}"/>
+	<input type="hidden" id="source_table" name="source_table" value="${sysparm_sourceTable}"/>
+	<input type="hidden" id="template_table" name="template_table" value="${sysparm_templateTable}"/>	
+	<input type="hidden" id="template_name" name="template_name" value="${sysparm_templateName}"/>	
+	<input type="hidden" id="file_name" name="file_name" value="${sysparm_fileName}" />
+	<input type="hidden" id="submit_draft" name="submit_draft" value="false"/>	
+	
+	<g2:evaluate var="jvar_content" jelly="true">
+		var gr = new GlideRecord('x_saghs_jp_qtm_quote_template');
+		gr.get(jelly.sysparm_sysId);	
+		var content = gr.sys_id;	
+		content;
+	</g2:evaluate>
+	
+	<input type="hidden" value="$[jvar_content]" id="doc_template"/>
+	
+	<div contenteditable="true" id='content_id' onkeyup="disableOrEnableButton()"/>
+	
+	<footer id="hr_dialog_footer" class="modal-footer">
+		<span id = 'info_message' ></span>
+		<button id="cancel_button" class="btn btn-default" onClick="return submitCancel();">
+			${gs.getMessage('Cancel')}
+		</button>
+		<button id="save_button" class="btn btn-primary" onClick="return submitSave();">
+			${gs.getMessage('Save')}
+		</button>		
+		<button id="ok_button" class="btn btn-primary" onClick="return submitOk();">
+			${gs.getMessage('Generate')}
+		</button>
+		<button id="reset_button" class="btn btn-primary" onClick="return resetForm();">
+			${gs.getMessage('Reset')}
+		</button>
+	</footer>	
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>Preview_document_dialog_v3</name>
+        <processing_script><![CDATA[if(submit_draft == "true"){
+	var gdf = new global.GeneralDocFormv2(template_name, source_table, source_sys_id, file_name);
+	gdf.generate();
+	var urlOnStack = GlideSession.get().getStack().bottom();
+	response.sendRedirect(urlOnStack);
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-20 12:33:33</sys_created_on>
+        <sys_id>35b26ae5dbe20300f9857195ae961977</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Preview_document_dialog_v3</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_page_35b26ae5dbe20300f9857195ae961977</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-20 14:15:08</sys_updated_on>
+    </sys_ui_page>
+</record_update>

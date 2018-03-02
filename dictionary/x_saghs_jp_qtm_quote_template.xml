@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Quote Template" max_length="40" name="x_saghs_jp_qtm_quote_template" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Body" max_length="8000" name="u_body" type="html"/>
+        <element label="Footer" max_length="40" name="u_footer" type="user_image"/>
+        <element choice="1" label="Footer Position" max_length="40" name="u_footer_position" type="choice">
+            <choice/>
+        </element>
+        <element label="Footnote" max_length="64" name="u_footnote" type="string"/>
+        <element label="Header" max_length="40" name="u_header" type="user_image"/>
+        <element choice="1" label="Header Position" max_length="40" name="u_header_position" type="choice">
+            <choice/>
+        </element>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element choice="1" label="Page Size" max_length="40" name="u_page_size" type="choice">
+            <choice>
+                <element label="A4" sequence="0" value="A4"/>
+                <element label="Legal" sequence="1" value="Legal"/>
+                <element label="Letter" sequence="2" value="Letter"/>
+            </choice>
+        </element>
+        <element label="Table" max_length="80" name="u_table" type="table_name"/>
+    </element>
+</database>

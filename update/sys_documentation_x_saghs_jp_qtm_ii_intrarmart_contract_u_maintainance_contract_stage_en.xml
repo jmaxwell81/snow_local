@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_maintainance_contract_stage" label="Maintenance Contract Stage" language="en" table="x_saghs_jp_qtm_ii_intrarmart_contract">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_maintainance_contract_stage</element>
+            <help/>
+            <hint/>
+            <label>Maintenance Contract Stage</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_ii_intrarmart_contract</name>
+            <plural>Maintenance Contract Stages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Geishin.Ro</sys_created_by>
+            <sys_created_on>2017-11-09 10:53:37</sys_created_on>
+            <sys_id>90922186db1acb00aca3f7adae961985</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Maintenance Contract Stage</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_ii_intrarmart_contract_u_maintainance_contract_stage_en</sys_update_name>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 08:21:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

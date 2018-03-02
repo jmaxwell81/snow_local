@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_saghs_jp_qtm.QuotationUtil</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>QuotationUtil</name>
+        <script><![CDATA[var QuotationUtil = Class.create();
+QuotationUtil.prototype = {
+    initialize: function() {
+    },
+	
+	getRelatedPeopleOfSalesOfficeByFl: function (fl_sys_id) {
+		var rslt = [];
+		var sysId = fl_sys_id;
+		var gr = new GlideRecord('alm_hardware');
+		if (gr.get(sysId)) {
+			if (!gr.account) {
+				return '';
+			}
+			if (!gr.account.u_sales_office) {
+				return '';
+			}
+			var soSysID = gr.account.u_sales_office;
+			var grSO = new GlideRecord('cmn_location');
+			if (grSO.get(soSysID)) {
+				if (grSO.u_tmss_name) rslt.push(grSO.u_tmss_name.toString());
+					
+				if (grSO.u_ra_name_main) rslt.push(grSO.u_ra_name_main.toString());
+				if (grSO.u_ra_name_sub) rslt.push(grSO.u_ra_name_sub.toString());
+					
+				if (grSO.u_omsv_name_main) rslt.push(grSO.u_omsv_name_main.toString());
+				if (grSO.u_omsv_name_sub) rslt.push(grSO.u_omsv_name_sub.toString());
+				if (grSO.u_omsv_name_sub2) rslt.push(grSO.u_omsv_name_sub2.toString());
+				
+				return rslt.join(',');
+			}
+			
+		}
+		return '';
+	},	
+
+    type: 'QuotationUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Geishin.Ro</sys_created_by>
+        <sys_created_on>2017-11-22 02:26:28</sys_created_on>
+        <sys_id>ab1beecedba24300aca3f7adae961918</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>QuotationUtil</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_include_ab1beecedba24300aca3f7adae961918</sys_update_name>
+        <sys_updated_by>Geishin.Ro</sys_updated_by>
+        <sys_updated_on>2017-11-22 02:35:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

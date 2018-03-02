@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_maintainance_contract_stage" label="契約更新ステータス" language="ja" table="x_saghs_jp_qtm_ii_intrarmart_contract">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_maintainance_contract_stage</element>
+            <help/>
+            <hint/>
+            <label>契約更新ステータス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_ii_intrarmart_contract</name>
+            <plural>契約更新ステータス</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Geishin.Ro</sys_created_by>
+            <sys_created_on>2017-11-13 03:49:11</sys_created_on>
+            <sys_id>0ec7ec93db928f00aca3f7adae96199d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>契約更新ステータス</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_ii_intrarmart_contract_u_maintainance_contract_stage_ja</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-18 10:13:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

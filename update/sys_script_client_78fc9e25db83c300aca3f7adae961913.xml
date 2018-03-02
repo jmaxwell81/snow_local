@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Quotation status change -&gt; show message</description>
+        <field>u_mitsumori_status</field>
+        <global>true</global>
+        <messages/>
+        <name>(SNJ) show msg after status chg</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	//g_form.addInfoMessage("newValue:" + newValue);
+	
+	//請求書作成依頼にステータスが変わった時
+// 	if (newValue == "request_creation_invoice") {
+// 	   g_form.addInfoMessage("請求書作成依頼を保存する前に、依頼する見積のPDFをダウンロードしNotificationに添付して下さい。");
+// 	}
+	
+	//見積書確認依頼にステータスが変わった時
+	if (newValue == "request_create_quot") {
+	   g_form.addInfoMessage('見積の確認を依頼する前に画面下部の見積一覧で"最終見積"にチェックを入れて下さい。');
+	}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Takuto.Suzuki</sys_created_by>
+        <sys_created_on>2017-12-15 08:42:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78fc9e25db83c300aca3f7adae961913</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>(SNJ) show msg after status chg</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_client_78fc9e25db83c300aca3f7adae961913</sys_update_name>
+        <sys_updated_by>yoichi.ohkawa</sys_updated_by>
+        <sys_updated_on>2018-01-10 01:08:31</sys_updated_on>
+        <table>x_saghs_jp_qtm_quotation</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Sys User Grmember" max_length="40" name="u_imp_tmpl_sys_user_grmember" type="collection">
+        <element attributes="import_attribute_name=Group,edge_encryption_enabled=true" label="Group" max_length="32" name="u_group" type="string"/>
+        <element attributes="import_attribute_name=User,edge_encryption_enabled=true" label="User" max_length="32" name="u_user" type="string"/>
+    </element>
+</database>

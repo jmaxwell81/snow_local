@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-03-02 06:46:48">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_3_across">f6df4af10a0a0b120070a45fa26bf4f3</layout>
+        <order/>
+        <read_roles>x_saghs_jp_qtm.cs</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-10-21 16:40:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>898bb008db824700f9857195ae961908</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Quotation Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_portal_page_898bb008db824700f9857195ae961908</sys_update_name>
+        <sys_updated_by>Ina Shinya</sys_updated_by>
+        <sys_updated_on>2017-12-22 05:53:01</sys_updated_on>
+        <title>Quotation Dashboard</title>
+        <user/>
+        <view>Notification Dashboard</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Quotation Dashboard">898bb008db824700f9857195ae961908</page>
+                <summary/>
+                <sys_created_by>Ina Shinya</sys_created_by>
+                <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                <sys_id>01177574dbd20b00f9857195ae9619d2</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Ina Shinya</sys_updated_by>
+                <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>01177574dbd20b00f9857195ae9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>05177574dbd20b00f9857195ae9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>09177574dbd20b00f9857195ae9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>09177574dbd20b00f9857195ae9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>Quotation List(In-Progress)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>0d177574dbd20b00f9857195ae9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>81177574dbd20b00f9857195ae9619d2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>ba1531f0dbd20b00f9857195ae9619cf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">01177574dbd20b00f9857195ae9619d2</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>8d177574dbd20b00f9857195ae9619d3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>898bb008db824700f9857195ae961908</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="Quotation Dashboard">898bb008db824700f9857195ae961908</page>
+                <summary/>
+                <sys_created_by>Ina Shinya</sys_created_by>
+                <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                <sys_id>49177574dbd20b00f9857195ae9619cf</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Ina Shinya</sys_updated_by>
+                <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>41177574dbd20b00f9857195ae9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>41177574dbd20b00f9857195ae9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>45177574dbd20b00f9857195ae9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>45177574dbd20b00f9857195ae9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>Quotation in progress(After Work)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>49177574dbd20b00f9857195ae9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>4d177574dbd20b00f9857195ae9619d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c9177574dbd20b00f9857195ae9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>4af479f0dbd20b00f9857195ae961966</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">49177574dbd20b00f9857195ae9619cf</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c9177574dbd20b00f9857195ae9619d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>898bb008db824700f9857195ae961908</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Quotation Dashboard">898bb008db824700f9857195ae961908</page>
+                <summary/>
+                <sys_created_by>Ina Shinya</sys_created_by>
+                <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                <sys_id>81177574dbd20b00f9857195ae9619cd</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Ina Shinya</sys_updated_by>
+                <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>05177574dbd20b00f9857195ae9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>a2d3f9b0dbd20b00f9857195ae96190c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>05177574dbd20b00f9857195ae9619cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>898bb008db824700f9857195ae961908</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>81177574dbd20b00f9857195ae9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>85177574dbd20b00f9857195ae9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>89177574dbd20b00f9857195ae9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>89177574dbd20b00f9857195ae9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>8d177574dbd20b00f9857195ae9619cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">81177574dbd20b00f9857195ae9619cd</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>8d177574dbd20b00f9857195ae9619ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>Quotation in progress(Before Work)</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Quotation Dashboard">898bb008db824700f9857195ae961908</page>
+                <summary/>
+                <sys_created_by>Ina Shinya</sys_created_by>
+                <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                <sys_id>c9177574dbd20b00f9857195ae9619ca</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>Ina Shinya</sys_updated_by>
+                <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>4d177574dbd20b00f9857195ae9619ca</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>9faca677dbc68700f9857195ae96196b</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>4d177574dbd20b00f9857195ae9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>898bb008db824700f9857195ae961908</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c1177574dbd20b00f9857195ae9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c1177574dbd20b00f9857195ae9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c5177574dbd20b00f9857195ae9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c5177574dbd20b00f9857195ae9619cc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>No Quotation for Notification(Notification status is not &amp;amp;quot;Complete&amp;amp;quot; and No Quotation)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>c9177574dbd20b00f9857195ae9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2017-11-06 00:10:49">c9177574dbd20b00f9857195ae9619ca</portal_section>
+                        <sys_created_by>Ina Shinya</sys_created_by>
+                        <sys_created_on>2017-11-05 15:10:49</sys_created_on>
+                        <sys_id>cd177574dbd20b00f9857195ae9619cb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>Ina Shinya</sys_updated_by>
+                        <sys_updated_on>2017-11-05 15:10:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

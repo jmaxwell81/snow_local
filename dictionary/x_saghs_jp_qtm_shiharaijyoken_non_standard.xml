@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="shiharaijyoken_non_standard" max_length="40" name="x_saghs_jp_qtm_shiharaijyoken_non_standard" type="collection">
+        <element label="Order" max_length="40" name="order" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Payment Terms" max_length="40" name="payment_terms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PayT" max_length="40" name="payt" type="string"/>
+    </element>
+</database>

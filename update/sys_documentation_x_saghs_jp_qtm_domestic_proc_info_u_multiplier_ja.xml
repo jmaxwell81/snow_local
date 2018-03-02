@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_multiplier" label="掛け率" language="ja" table="x_saghs_jp_qtm_domestic_proc_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_multiplier</element>
+            <help/>
+            <hint/>
+            <label>掛け率</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_domestic_proc_info</name>
+            <plural>掛け率</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 06:24:46</sys_created_on>
+            <sys_id>9605a08edb5e8b00f9857195ae961939</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>掛け率</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_domestic_proc_info_u_multiplier_ja</sys_update_name>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 00:25:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

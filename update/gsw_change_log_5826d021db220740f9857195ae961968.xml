@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2017-11-20 02:18:24</change_date>
+        <changed_by display_value="Hironori Iizuka">b0659e66db358300f9857195ae961958</changed_by>
+        <content display_value="PDF Request Authorization">0b0957ab11232200964f016bcc1bdd27</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>Hironori.Iizuka</sys_created_by>
+        <sys_created_on>2017-11-20 02:18:24</sys_created_on>
+        <sys_id>5826d021db220740f9857195ae961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2017-11-20 02:18:24</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>gsw_change_log_5826d021db220740f9857195ae961968</sys_update_name>
+        <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+        <sys_updated_on>2017-11-20 02:18:24</sys_updated_on>
+        <type>2</type>
+    </gsw_change_log>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_dictionary" relationship="936d24940a0007040df60be53657a3db" sys_domain="global" table="sys_documentation" version="2" view="advanced">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_documentation</name>
+            <parent>sys_dictionary</parent>
+            <position/>
+            <relationship display_value="Labels">936d24940a0007040df60be53657a3db</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-09 07:19:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dea1bc4edb9e8b00f9857195ae96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-09 07:19:56</sys_updated_on>
+            <sys_user display_value="Hironori Iizuka">b0659e66db358300f9857195ae961958</sys_user>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-11-09 17:31:38</sys_created_on>
+        <sys_id>e6adf6cedb1acb00f9857195ae9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_saghs_jp_qtm_ii_shuri_type.snc_internal</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_security_acl display_value="x_saghs_jp_qtm_ii_shuri_type">819dbacedb1acb00f9857195ae9619bd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e6adf6cedb1acb00f9857195ae9619e3</sys_update_name>
+        <sys_updated_by>Ina Shinya</sys_updated_by>
+        <sys_updated_on>2017-11-09 17:31:38</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>e6ad7acedb1acb00f9857195ae961967</transaction_id>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp shikakari_list_2" max_length="40" name="x_saghs_jp_qtm_ii_tmpl_shikakari_list_2" type="collection">
+        <element attributes="import_attribute_name=Account_manager,edge_encryption_enabled=true" label="Account_manager" max_length="40" name="u_account_manager" type="string"/>
+        <element attributes="import_attribute_name=AGE" label="AGE" max_length="40" name="u_age" type="integer"/>
+        <element attributes="import_attribute_name=Basho,edge_encryption_enabled=true" label="Basho" max_length="40" name="u_basho" type="string"/>
+        <element attributes="import_attribute_name=Biko(CSG),edge_encryption_enabled=true" label="Biko(CSG)" max_length="228" name="u_biko_csg_" type="string"/>
+        <element attributes="import_attribute_name=Biko(DST),edge_encryption_enabled=true" label="Biko(DST)" max_length="68" name="u_biko_dst_" type="string"/>
+        <element attributes="import_attribute_name=DNR,edge_encryption_enabled=true" label="DNR" max_length="40" name="u_dnr" type="string"/>
+        <element attributes="import_attribute_name=DNR_created_date,edge_encryption_enabled=true" label="DNR_created_date" max_length="40" name="u_dnr_created_date" type="string"/>
+        <element attributes="import_attribute_name=DST_Shikakari_keshikomi_irai,edge_encryption_enabled=true" label="DST_Shikakari_keshikomi_irai" max_length="40" name="u_dst_shikakari_keshikomi_irai" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="employee_id" max_length="40" name="u_employee_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FL" max_length="40" name="u_fl" type="string"/>
+        <element attributes="import_attribute_name=Honshayori_toiawase,edge_encryption_enabled=true" label="Honshayori_toiawase" max_length="40" name="u_honshayori_toiawase" type="string"/>
+        <element attributes="import_attribute_name=Jissai_Genkakei" label="Jissai_Genkakei" max_length="40" name="u_jissai_genkakei" type="integer"/>
+        <element attributes="import_attribute_name=Jisseki_hakkou_date" label="Jisseki_hakkou_date" max_length="40" name="u_jisseki_hakkou_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Joui_shizu" label="Joui_shizu" max_length="40" name="u_joui_shizu" type="float"/>
+        <element attributes="import_attribute_name=Kinou_Basyo,edge_encryption_enabled=true" label="Kinou_Basyo" max_length="40" name="u_kinou_basyo" type="string"/>
+        <element attributes="import_attribute_name=Kokyaku_seikyu_kingaku(Zeinuki),edge_encryption_enabled=true" label="Kokyaku_seikyu_kingaku(Zeinuki)" max_length="40" name="u_kokyaku_seik_ngaku_zeinuki_" type="string"/>
+        <element attributes="import_attribute_name=Kosho_hakko_date" label="Kosho_hakko_date" max_length="40" name="u_kosho_hakko_date" type="glide_date"/>
+        <element attributes="import_attribute_name=latest_dispatch_date" label="latest_dispatch_date" max_length="40" name="u_latest_dispatch_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Mitsumori_link,edge_encryption_enabled=true" label="Mitsumori_link" max_length="40" name="u_mitsumori_link" type="string"/>
+        <element attributes="import_attribute_name=OPT_1,edge_encryption_enabled=true" label="OPT_1" max_length="40" name="u_opt_1" type="string"/>
+        <element attributes="import_attribute_name=OPT_2" label="OPT_2" max_length="40" name="u_opt_2" type="integer"/>
+        <element attributes="import_attribute_name=OPT_3,edge_encryption_enabled=true" label="OPT_3" max_length="40" name="u_opt_3" type="string"/>
+        <element attributes="import_attribute_name=OPT_6,edge_encryption_enabled=true" label="OPT_6" max_length="40" name="u_opt_6" type="string"/>
+        <element attributes="import_attribute_name=OPT_7,edge_encryption_enabled=true" label="OPT_7" max_length="40" name="u_opt_7" type="string"/>
+        <element attributes="import_attribute_name=OPT_8,edge_encryption_enabled=true" label="OPT_8" max_length="40" name="u_opt_8" type="string"/>
+        <element attributes="import_attribute_name=PTBL_CRTD,edge_encryption_enabled=true" label="PTBL_CRTD" max_length="40" name="u_ptbl_crtd" type="string"/>
+        <element attributes="import_attribute_name=Sales_office,edge_encryption_enabled=true" label="Sales_office" max_length="40" name="u_sales_office" type="string"/>
+        <element attributes="import_attribute_name=Secchibasyo,edge_encryption_enabled=true" label="Installation Place" max_length="40" name="u_secchibasyo" type="string"/>
+        <element attributes="import_attribute_name=Seikyusaki,edge_encryption_enabled=true" label="Seikyusaki" max_length="40" name="u_seikyusaki" type="string"/>
+        <element attributes="import_attribute_name=Seikyusho_number,edge_encryption_enabled=true" label="Seikyusho_number" max_length="40" name="u_seikyusho_number" type="string"/>
+        <element attributes="import_attribute_name=Seikyu_torokubi,edge_encryption_enabled=true" label="Seikyu_torokubi" max_length="40" name="u_seikyu_torokubi" type="string"/>
+        <element attributes="import_attribute_name=Seikyu_torokuiraibi,edge_encryption_enabled=true" label="Seikyu_torokuiraibi" max_length="40" name="u_seikyu_torokuiraibi" type="string"/>
+        <element attributes="import_attribute_name=Shikakari_riyu_kubun,edge_encryption_enabled=true" label="Shikakari_riyu_kubun" max_length="40" name="u_shikakari_riyu_kubun" type="string"/>
+        <element attributes="import_attribute_name=Shizu_number" label="Shizu_number" max_length="40" name="u_shizu_number" type="float"/>
+        <element attributes="import_attribute_name=Shizu_text,edge_encryption_enabled=true" label="Shizu_text" max_length="40" name="u_shizu_text" type="string"/>
+        <element attributes="import_attribute_name=Shizu_type,edge_encryption_enabled=true" label="Shizu_type" max_length="40" name="u_shizu_type" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="47" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Taiougijutsu_text,edge_encryption_enabled=true" label="Taiougijutsu_text" max_length="40" name="u_taiougijutsu_text" type="string"/>
+        <element attributes="import_attribute_name=Task_code_text,edge_encryption_enabled=true" label="Task_code_text" max_length="40" name="u_task_code_text" type="string"/>
+        <element attributes="import_attribute_name=Task_test,edge_encryption_enabled=true" label="Task_test" max_length="40" name="u_task_test" type="string"/>
+        <element attributes="import_attribute_name=TECO_kanryobi,edge_encryption_enabled=true" label="TECO_kanryobi" max_length="40" name="u_teco_kanryobi" type="string"/>
+        <element attributes="import_attribute_name=Tokutei_Biko,edge_encryption_enabled=true" label="Tokutei_Biko" max_length="68" name="u_tokutei_biko" type="string"/>
+        <element attributes="import_attribute_name=Tsuchi_number" label="Tsuchi_number" max_length="40" name="u_tsuchi_number" type="float"/>
+        <element attributes="import_attribute_name=Tsuchi_status,edge_encryption_enabled=true" label="Tsuchi_status" max_length="40" name="u_tsuchi_status" type="string"/>
+        <element attributes="import_attribute_name=Uriageyotei,edge_encryption_enabled=true" label="Uriageyotei" max_length="40" name="u_uriageyotei" type="string"/>
+        <element attributes="import_attribute_name=Yoyakuzumi_komoku,edge_encryption_enabled=true" label="Yoyakuzumi_komoku" max_length="40" name="u_yoyakuzumi_komoku" type="string"/>
+    </element>
+</database>

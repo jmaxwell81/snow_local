@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_taiougijutsu_text" label="Taiougijutsu_text" language="en" table="x_saghs_jp_qtm_fl_completion_data_set">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_taiougijutsu_text</element>
+            <help/>
+            <hint/>
+            <label>Taiougijutsu_text</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_fl_completion_data_set</name>
+            <plural>Taiougijutsu_texts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 11:32:30</sys_created_on>
+            <sys_id>ac05a888db660340aca3f7adae961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Taiougijutsu_text</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_fl_completion_data_set_u_taiougijutsu_text_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 11:32:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

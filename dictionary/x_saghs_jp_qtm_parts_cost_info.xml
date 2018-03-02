@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="部品費情報" max_length="40" name="x_saghs_jp_qtm_parts_cost_info" type="collection">
+        <element label="Part Name" max_length="32" name="parts_name" reference="u_parts" reference_qual="u_standard_priceISNOTEMPTY^EQ" reference_qual_condition="u_standard_priceISNOTEMPTY^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return   // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Display Value" max_length="128" name="u_display" read_only="true" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;var amt;&#13;&#10;&#9;&#13;&#10;&#9;if (current.u_unit_price &gt; 0) {&#13;&#10;&#9;&#9;amt = current.u_unit_price * current.u_no_units;&#13;&#10;&#9;} &#13;&#10;&#9;else {&#13;&#10;&#9;&#9;amt = current.parts_name.u_standard_price * current.u_no_units;&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return amt;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Line Total" max_length="20" name="u_line_total" type="decimal" virtual="true"/>
+        <element label="Quantity" max_length="40" name="u_no_units" type="integer"/>
+        <element label="Parts Number" max_length="32" name="u_parts_number" reference="alm_hardware" type="reference"/>
+        <element label="Quotation Number" max_length="32" name="u_quote_no" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Unit Price" max_length="20" name="u_unit_price" type="decimal"/>
+        <index name="index">
+            <element name="u_parts_number"/>
+        </index>
+        <index name="index2">
+            <element name="u_quote_no"/>
+        </index>
+        <index name="index3">
+            <element name="parts_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>gif</format>
+        <height>80</height>
+        <image/>
+        <name>logo2.gif</name>
+        <size_bytes>3716</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:56:13</sys_created_on>
+        <sys_id>1f8c8dd6db9ecb00f9857195ae96197b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>logo2.gif</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>db_image_1f8c8dd6db9ecb00f9857195ae96197b</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-10 03:56:17</sys_updated_on>
+        <thumbnail/>
+        <width>198</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/gif</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height>80</image_height>
+        <image_width>198</image_width>
+        <size_bytes>3716</size_bytes>
+        <size_compressed>3739</size_compressed>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:56:17</sys_created_on>
+        <sys_id>49ac8dd6db9ecb00f9857195ae961980</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-10 03:56:17</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>1f8c8dd6db9ecb00f9857195ae96197b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="49ac8dd6db9ecb00f9857195ae961980">49ac8dd6db9ecb00f9857195ae961980</sys_attachment>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:56:17</sys_created_on>
+        <sys_id>89ac8dd6db9ecb00f9857195ae961980</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3736</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="49ac8dd6db9ecb00f9857195ae961980">49ac8dd6db9ecb00f9857195ae961980</sys_attachment>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:56:17</sys_created_on>
+        <sys_id>0dac8dd6db9ecb00f9857195ae961980</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>acfmgQtdKLc/nkGwN+jDH48g2CcEwotwVsIf5+ZCIARyD//Wgbq45kIb+iiQaQRZrBG5t02kCoYxWHwMDj1qPezXhVwcAxV4IFgwg0EwOMzPH8n/4HahrSsQeEjVFuMm2EnnTTAzIHbd7b7Hu7sw82PUWx/k4PgrmrEKRnOho5sgmCOKAQsPcwEQy0z4Hjp7Dj4QLLynYEZtEfIOStTBEg+eiVRRMQxlKGMWdigrPFjchd7ejxLQLAXB+GDNlHN55TFu+ctjzoUy/6LmN990p3de5mHUGx/zgGcXwnk/SMwP2lxwO3nN64+ES5kgu8hvlRnR2IWQnGC5qIlUQz8Qpx917QTrAh7c8IdcDG8UTq67yr29VL0TDObglqrfAe8PnA8e3oU/vDmkSgYzuGEQragp5LtQhjT44RTtFIjlwy6QZFxiDZJX8kKa0dsuCJQmYR0q/3GPSg+QcgEV0oj+QGBBMDcs0x/EmL2hfTEQl+ddIJHePRds3nvBuxv4AmF4uAV05hcK6VcQjUAwe4AM1fB+AzF9BzEOxxAIBNMHW2cQskAJwHCBLhF+YzV+/kAOlUAwhMBW66AM0MIM2kUGzyAQwiBieMcFpOcP9scFEGdjBKN//Od7/9cFwTeA/oAJTvZg63AMkqQLBFMHGuUP0XAN0leB1HcOiCUQrkAwfsCBPeFUEEdWxSUQveBQfrAKp0AIYCBU8kBcblAKqXBRXmBe8gAHBCMHimAJ9VAP5kcHigAJgaV7S8Z7PKhzAOgPAvgGffR3BDMHqHAKgxAGHSUP5v/3BpGgCozQBokQdVBIEKLgBo7ACZ9gfopgFOMVSgJxDmnHBb8lEEnXbJYgELYgeexmYONEDqN2P6G3ZfcjVPQwXvc0C1dHXeAEb8bgWHdAMLcgEPSGY9F3Cs3GBavoD8qgSjRWBz7lCQSzBmE3D05XRHYwWkTxCJZQCd/nD/MQCpYwCfcUgrkwCHHQBnuUCtQlELhACGmgBoEwDLNQCZaAVfhwCXBwBnFwCON0D5mQB/5oCC34DpFgCZYwYdSACZZwCTk1DYswCY7wVfKgCZOACRN2DQqZCackELpgCHDAjnqQCj4lENFwCXJwBneABorADGbjC5NgCabAVvYVDJZDQAdn0AZy8AhfNUtAGZRCOZREWZRGeZRImZRKuZRM2ZRO+ZRQGZVSOZVUWZVWeZVYmZVauZVc2ZVe+ZVgGZZiWRQBAQA7EVoVK4QOAAA=</data>
+        <length>1240</length>
+        <position>2</position>
+        <sys_attachment display_value="image" sys_id="49ac8dd6db9ecb00f9857195ae961980">49ac8dd6db9ecb00f9857195ae961980</sys_attachment>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:56:17</sys_created_on>
+        <sys_id>8dac8dd6db9ecb00f9857195ae961980</sys_id>
+    </sys_attachment_doc>
+</record_update>

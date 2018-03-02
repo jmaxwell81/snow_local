@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Quotation Tool">60057cc0db824700f9857195ae961956</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>91.Import Notification</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>91</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>create_import_set.do&#13;
+</query>
+        <report/>
+        <roles>x_saghs_jp_qtm.QT_admin,admin,import_admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>Ina Shinya</sys_created_by>
+        <sys_created_on>2017-10-21 16:58:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b8fb848db824700f9857195ae9619c1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>91.Load data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_app_module_6b8fb848db824700f9857195ae9619c1</sys_update_name>
+        <sys_updated_by>cs.mari.sakaki</sys_updated_by>
+        <sys_updated_on>2018-01-25 00:50:47</sys_updated_on>
+        <timeline_page/>
+        <title>91.Load data</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

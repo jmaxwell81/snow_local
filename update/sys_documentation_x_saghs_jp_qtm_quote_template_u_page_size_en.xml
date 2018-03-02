@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_page_size" label="Page Size" language="en" table="x_saghs_jp_qtm_quote_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_page_size</element>
+            <help/>
+            <hint/>
+            <label>Page Size</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_template</name>
+            <plural>Page Sizes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-11-18 13:16:12</sys_created_on>
+            <sys_id>7489dc01dbea8340f9857195ae961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Page Size</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quote_template_u_page_size_en</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-11-18 13:16:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

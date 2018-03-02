@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_saghs_jp_qtm_quotation</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_saghs_jp_qtm_quotation">u_mitsumori_statusVALCHANGES^EQ<item endquery="false" field="u_mitsumori_status" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>(SNJ) Create Record for PDF</name>
+        <order>1500</order>
+        <priority>1500</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+function numberWithCommas(n) {
+	var parts=n.toString().split(".");
+	return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (parts[1] ? "." + parts[1] : "");
+}
+	
+function getDiscount() {
+	var discount;
+
+	if (current.non_standard_discount_rate > 0 || current.non_standard_discount_amount > 0) {
+		discount = parseFloat(current.u_parts_total * (current.non_standard_discount_rate/100)) + parseFloat(current.non_standard_discount_amount);
+	}
+	else if (current.u_discount_rate > 0 || current.u_discount_amount > 0) {
+		discount = parseFloat(current.u_parts_total * (current.u_discount_rate/100)) + parseFloat(current.u_discount_amount);
+	}
+	else {
+		var d1 = parseFloat(current.u_parts_total * (current.non_standard_discount_rate/100)) + parseFloat(current.non_standard_discount_amount);
+		var d2 = parseFloat(current.u_parts_total * (current.u_discount_rate/100)) + parseFloat(current.u_discount_amount);
+		discount = Math.max(d1,d2);
+	}
+	
+	return discount;
+}
+	
+var PDFqr = new GlideRecord("x_saghs_jp_qtm_quote_records_for_pdf"); 
+PDFqr.initialize();
+PDFqr.u_delivery_address = current.hospital_name;
+var date = new GlideDate();
+PDFqr.u_date = date;
+//PDFqr.u_delivery_date = "";
+PDFqr.u_handling_fee = gs.getProperty("x_saghs_jp_qtm.handling_fee");
+
+var bt = current.u_fl_number_master.u_comp_data.u_bill_to_code.getDisplayValue();
+	if (bt == '') {
+		PDFqr.bill_to = current.hospital_name;
+	}
+	else {
+		PDFqr.bill_to = bt;
+	}
+
+//PDFqr.u_inquiry_date = "";
+//PDFqr.u_inquiry_no = "";
+PDFqr.u_notes = current.u_comment_quotation+'';
+PDFqr.u_quote_no = current.sys_id;
+PDFqr.u_quote_validity = current.u_expiration_date;
+PDFqr.u_tandc = current.u_terms_payment.getDisplayValue();
+PDFqr.u_title = current.u_string_full_utf8_15;
+
+var disAmt = getDiscount();
+PDFqr.u_discount = numberWithCommas(disAmt);
+	
+var taxAmt = Math.floor((current.u_grand_total - disAmt)*(current.u_c_tax_rate/100));
+PDFqr.u_tax = numberWithCommas(taxAmt);
+
+var gtld = parseFloat(current.u_grand_total) + parseFloat(taxAmt) - parseFloat(disAmt);
+PDFqr.u_grand_total = gtld; 
+
+PDFqr.u_sales_office = current.u_fl_number_master.account.u_sales_office.u_office_name_j;
+PDFqr.u_so_address = current.u_fl_number_master.account.u_sales_office.street;
+PDFqr.u_manager = current.u_fl_number_master.account.u_sales_office.u_mngr_name_j;
+PDFqr.u_contact = current.u_fl_number_master.account.u_sales_office.phone;
+PDFqr.u_status = current.u_mitsumori_status.getDisplayValue();
+PDFqr.u_honorific = current.u_honorific;
+PDFqr.u_equipment = current.u_device_name;
+	
+if (current.u_dealer == false) {
+	PDFqr.standard_labour_rate = gs.getProperty("x_saghs_jp_qtm.work_rate_standard");
+	PDFqr.overtime_labour_rate = gs.getProperty("x_saghs_jp_qtm.work_rate_overtime");
+}
+else {
+	PDFqr.standard_labour_rate = current.u_work_rate_dealer;
+	PDFqr.overtime_labour_rate = current.u_overtime_rate_dealer;
+}
+	
+//gs.info("I am processing");
+
+var c1 = 0;
+var pr = new GlideRecord("x_saghs_jp_qtm_parts_cost_info");
+pr.addQuery("u_quote_no", current.sys_id);
+pr.query();
+
+while (pr.next()) {
+	if (c1 == 0) {
+		PDFqr.u_parts = pr.sys_id;
+	}
+	else {
+		PDFqr.u_parts += ","+pr.sys_id;
+	}
+	c1++;
+}
+
+var c2 = 0;
+var dpr = new GlideRecord("x_saghs_jp_qtm_domestic_proc_info");
+dpr.addQuery("u_quote_no", current.sys_id);
+dpr.query();
+
+while (dpr.next()) {
+	if (c2 == 0) {
+		PDFqr.u_domestic_procurement = dpr.sys_id;
+	}
+	else {
+		PDFqr.u_domestic_procurement += ","+dpr.sys_id;
+	}
+	c2++;
+}
+
+var c3 = 0;
+var lr = new GlideRecord("x_saghs_jp_qtm_labour_cost");
+lr.addQuery("u_quote_no", current.sys_id);
+lr.query();
+
+while (lr.next()) {
+	if (c3 == 0) {
+		PDFqr.u_labour = lr.sys_id;
+	}
+	else {
+		PDFqr.u_labour += ","+lr.sys_id;
+	}
+	c3++;
+}
+	
+var c4 = 0;
+var or = new GlideRecord("x_saghs_jp_qtm_other");
+or.addQuery("u_quote_no", current.sys_id);
+or.query();
+
+while (or.next()) {
+	if (c4 == 0) {
+		PDFqr.u_other = or.sys_id;
+	}
+	else {
+		PDFqr.u_other += ","+or.sys_id;
+	}
+	c4++;
+}
+	
+PDFqr.insert();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-10-27 03:29:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c61001fddb828300aca3f7adae961956</sys_id>
+        <sys_mod_count>104</sys_mod_count>
+        <sys_name>(SNJ) Create Record for PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_c61001fddb828300aca3f7adae961956</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-12-20 07:41:56</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c61001fddb828300aca3f7adae961956"/>
+</record_update>

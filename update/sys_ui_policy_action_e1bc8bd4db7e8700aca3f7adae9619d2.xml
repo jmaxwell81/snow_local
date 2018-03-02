@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_list_for_quo</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Takuto.Suzuki</sys_created_by>
+        <sys_created_on>2017-11-29 04:39:57</sys_created_on>
+        <sys_id>e1bc8bd4db7e8700aca3f7adae9619d2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>u_list_for_quo</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e1bc8bd4db7e8700aca3f7adae9619d2</sys_update_name>
+        <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+        <sys_updated_on>2017-11-29 04:46:26</sys_updated_on>
+        <table>x_saghs_jp_qtm_ii_shikakari_list</table>
+        <ui_policy display_value="Readonly invoice info except Quotation status and Assigned to ">123bc794db7e8700aca3f7adae96191e</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

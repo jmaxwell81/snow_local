@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_quote_no" label="Quote No" language="en" table="x_saghs_jp_qtm_quote_records_for_pdf">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_quote_no</element>
+            <help/>
+            <hint/>
+            <label>Quote No</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quote_records_for_pdf</name>
+            <plural>Quote Nos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-27 00:51:01</sys_created_on>
+            <sys_id>a6fb50f1db428300aca3f7adae96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quote No</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quote_records_for_pdf_u_quote_no_en</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-27 00:51:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

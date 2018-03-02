@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_comment_for_invoice</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Hironori.Iizuka</sys_created_by>
+        <sys_created_on>2017-11-09 05:30:31</sys_created_on>
+        <sys_id>e3f79882db5e8b00f9857195ae961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_comment_for_invoice</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e3f79882db5e8b00f9857195ae961981</sys_update_name>
+        <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+        <sys_updated_on>2017-11-09 05:30:31</sys_updated_on>
+        <table>x_saghs_jp_qtm_quotation</table>
+        <ui_policy display_value="Field restriction for Quotation">4f5a3b39dbda8b00f9857195ae96196c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Quote Template Scripts" max_length="40" name="x_saghs_jp_qtm_quote_template_scripts" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Name" max_length="128" name="u_name" type="string"/>
+        <element label="Script" max_length="8000" name="u_script" type="script"/>
+    </element>
+</database>

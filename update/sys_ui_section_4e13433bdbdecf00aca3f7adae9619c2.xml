@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="4e13433bdbdecf00aca3f7adae9619c2" sys_domain="global" table="x_saghs_jp_qtm_ii_shikakari_list" version="3" view="exp_d51fa1cfedbcec300f9857195ae9619c2">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_uriageyotei</element>
+            <position>0</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0613833bdbdecf00aca3f7adae96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_yoyakuzumi_komoku</element>
+            <position>1</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8a13833bdbdecf00aca3f7adae96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_1</element>
+            <position>2</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0e13833bdbdecf00aca3f7adae96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_2</element>
+            <position>3</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8e13833bdbdecf00aca3f7adae96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_3</element>
+            <position>4</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0213833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_honshayori_toiawase</element>
+            <position>5</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8213833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0613833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shikakari_riyu_kubun</element>
+            <position>7</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8613833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dst_shikakari_keshikomi_irai</element>
+            <position>8</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0a13833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_6</element>
+            <position>9</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8a13833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_7</element>
+            <position>10</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0e13833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_opt_8</element>
+            <position>11</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8e13833bdbdecf00aca3f7adae961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gratis_approval_number</element>
+            <position>12</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0213833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gratis_application_reason</element>
+            <position>13</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8213833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gratis_application_other_reason</element>
+            <position>14</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0613833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>15</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8613833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tokutei_biko</element>
+            <position>16</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0a13833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_biko_csg</element>
+            <position>17</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>8a13833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_biko_dst</element>
+            <position>18</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_id>0e13833bdbdecf00aca3f7adae961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="1dfa1cfedbcec300f9857195ae9619c2">4e13433bdbdecf00aca3f7adae9619c2</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-15 04:24:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e13433bdbdecf00aca3f7adae9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_ii_shikakari_list</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_section_4e13433bdbdecf00aca3f7adae9619c2</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-15 04:24:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Exp_d51fa1cfedbcec300f9857195ae9619c2" name="exp_d51fa1cfedbcec300f9857195ae9619c2">1dfa1cfedbcec300f9857195ae9619c2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

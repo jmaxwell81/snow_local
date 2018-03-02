@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="non_standard_application_reason" table="x_saghs_jp_qtm_quotation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:02:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72b22b66dbba0300aca3f7adae9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:02:54</sys_updated_on>
+            <value>CSE issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE対応 ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:03:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2f22b26dbba0300aca3f7adae9619f2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-11 09:07:09</sys_updated_on>
+            <value>CSE issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Call center issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:47:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e0d2baedbba0300aca3f7adae961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:47:24</sys_updated_on>
+            <value>Call center issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>コールセンター対応ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:48:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>062d2faedbba0300aca3f7adae961934</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:48:23</sys_updated_on>
+            <value>Call center issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contractor issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>2</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>687defaedbba0300aca3f7adae96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:49:03</sys_updated_on>
+            <value>Contractor issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>業者ミス</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>2</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b49d2faedbba0300aca3f7adae961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:49:35</sys_updated_on>
+            <value>Contractor issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer cancellation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>3</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:49:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01bd23eedbba0300aca3f7adae96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:49:59</sys_updated_on>
+            <value>Customer cancellation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>顧客キャンセル</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>3</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:50:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94cda3eedbba0300aca3f7adae961972</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:50:57</sys_updated_on>
+            <value>Customer cancellation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No problem reproduced</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>4</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:51:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b30ea7eedbba0300aca3f7adae96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:51:37</sys_updated_on>
+            <value>No problem reproduced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>問題再現せず</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>4</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:52:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>182eabeedbba0300aca3f7adae961929</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:52:51</sys_updated_on>
+            <value>No problem reproduced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recurrence during work and immediately after work</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>5</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:53:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb8eebeedbba0300aca3f7adae96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:53:46</sys_updated_on>
+            <value>Recurrence during work and immediately after work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>作業中・作業直後の再発</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>5</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:54:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55ae6b22dbfa0300aca3f7adae96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:54:18</sys_updated_on>
+            <value>Recurrence during work and immediately after work</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bug in UI / VU</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>6</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:55:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47de6322dbfa0300aca3f7adae9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:55:02</sys_updated_on>
+            <value>Bug in UI / VU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UI / VU時の不具合</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>6</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:55:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dee6b22dbfa0300aca3f7adae9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:55:21</sys_updated_on>
+            <value>Bug in UI / VU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EoS</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>7</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:55:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b0f2b22dbfa0300aca3f7adae9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:55:53</sys_updated_on>
+            <value>EoS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EoS</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>7</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:56:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be1faf22dbfa0300aca3f7adae96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:56:08</sys_updated_on>
+            <value>EoS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Billing / Delay</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>8</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d4f6362dbfa0300aca3f7adae9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:56:50</sys_updated_on>
+            <value>Billing / Delay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>請求もれ・遅れ</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>8</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:57:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c5f6f22dbfa0300aca3f7adae9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:57:09</sys_updated_on>
+            <value>Billing / Delay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reason for negotiation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>9</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:57:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f7f6362dbfa0300aca3f7adae96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:57:47</sys_updated_on>
+            <value>Reason for negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>商談上の理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>9</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b8f6362dbfa0300aca3f7adae9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:58:09</sys_updated_on>
+            <value>Reason for negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reason for business negotiation</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>10</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:59:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52ff2762dbfa0300aca3f7adae9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:59:57</sys_updated_on>
+            <value>Reason for business negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>営業買換え商談上の理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>10</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:00:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5910f762dbfa0300aca3f7adae961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:00:37</sys_updated_on>
+            <value>Reason for business negotiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate contract</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>11</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:01:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47303362dbfa0300aca3f7adae9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:01:03</sys_updated_on>
+            <value>Inadequate contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>契約上の不備</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>11</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:01:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a40b362dbfa0300aca3f7adae9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:01:33</sys_updated_on>
+            <value>Inadequate contract</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equipment quality issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>12</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14907f62dbfa0300aca3f7adae9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:02:32</sys_updated_on>
+            <value>Equipment quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>装置品質上の問題</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>12</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>379073a2dbfa0300aca3f7adae9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:02:53</sys_updated_on>
+            <value>Equipment quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parts quality issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>13</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:03:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25c0bb62dbfa0300aca3f7adae96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:03:27</sys_updated_on>
+            <value>Parts quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>パーツ品質上の問題</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>13</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:03:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69d0b3a2dbfa0300aca3f7adae961999</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:05:58</sys_updated_on>
+            <value>Parts quality issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TVA reasons</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>14</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:04:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6af0bf62dbfa0300aca3f7adae961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:04:18</sys_updated_on>
+            <value>TVA reasons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TVA 理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>14</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:04:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9501ff22dbfa0300aca3f7adae9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:04:40</sys_updated_on>
+            <value>TVA reasons</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Import transducer reason</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>15</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:05:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6213ba2dbfa0300aca3f7adae96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:05:09</sys_updated_on>
+            <value>Import transducer reason</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>輸入transducer理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>15</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:05:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a31f7a2dbfa0300aca3f7adae96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:05:37</sys_updated_on>
+            <value>Import transducer reason</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other reasons for Probe</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>16</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:06:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b61bba2dbfa0300aca3f7adae961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:06:17</sys_updated_on>
+            <value>Other reasons for Probe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他プローベ理由</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>16</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f671f7a2dbfa0300aca3f7adae961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:06:35</sys_updated_on>
+            <value>Other reasons for Probe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Domestic Procurement issue</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>17</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:07:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ea13fa2dbfa0300aca3f7adae961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:07:16</sys_updated_on>
+            <value>Domestic Procurement issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>国内品の不具合</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>17</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:07:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b8b173e2dbfa0300aca3f7adae96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:07:39</sys_updated_on>
+            <value>Domestic Procurement issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>18</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:08:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92d1f3e2dbfa0300aca3f7adae9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:08:04</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>non_standard_application_reason</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>その他</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>18</sequence>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 07:08:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45e1b7e2dbfa0300aca3f7adae9619d9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 07:08:44</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>non_standard_application_reason</element>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Takuto.Suzuki</sys_created_by>
+            <sys_created_on>2017-12-06 06:02:54</sys_created_on>
+            <sys_id>15f2e366dbba0300aca3f7adae96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>non_standard_application_reason</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_quotation_non_standard_application_reason</sys_update_name>
+            <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+            <sys_updated_on>2017-12-06 06:02:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

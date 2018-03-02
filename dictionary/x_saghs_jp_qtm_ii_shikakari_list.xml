@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="shikakari_list" max_length="40" name="x_saghs_jp_qtm_ii_shikakari_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Gratis Application Other Reason" max_length="40" name="gratis_application_other_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Gratis Approval Number" max_length="40" name="gratis_approval_number" type="string"/>
+        <element label="Account_manager" max_length="40" name="u_account_manager" type="string"/>
+        <element label="AGE" max_length="40" name="u_age" type="integer"/>
+        <element label="Place" max_length="40" name="u_basho" type="string"/>
+        <element label="Remarks (CSG)" max_length="256" name="u_biko_csg" type="string"/>
+        <element label="Remarks (OMSV)" max_length="128" name="u_biko_dst" type="string"/>
+        <element label="DNR" max_length="40" name="u_dnr" type="string"/>
+        <element label="DNR_created_date" max_length="40" name="u_dnr_created_date" type="glide_date"/>
+        <element label="DST WIP Closing Request" max_length="40" name="u_dst_shikakari_keshikomi_irai" type="string"/>
+        <element label="Employee Name" max_length="32" name="u_employee_name" reference="sys_user" type="reference"/>
+        <element label="FL" max_length="32" name="u_fl_number" reference="alm_hardware" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gratis Application Reason" max_length="40" name="u_gratis_application_reason" type="string">
+            <choice>
+                <element label="CSE issue" sequence="0" value="CSE issue"/>
+                <element label="CSE対応 ミス" language="ja" sequence="0" value="CSE issue"/>
+                <element label="Call center issue" sequence="1" value="Call center issue"/>
+                <element label="コールセンター対応ミス" language="ja" sequence="1" value="Call center issue"/>
+                <element label="Contractor issue" sequence="2" value="Contractor issue"/>
+                <element label="業者ミス" language="ja" sequence="2" value="Contractor issue"/>
+                <element label="Customer cancellation" sequence="3" value="Customer cancellation"/>
+                <element label="顧客キャンセル" language="ja" sequence="3" value="Customer cancellation"/>
+                <element label="No problem reproduced" sequence="4" value="No problem reproduced"/>
+                <element label="問題再現せず" language="ja" sequence="4" value="No problem reproduced"/>
+                <element label="Recurrence during work and immediately after work" sequence="5" value="Recurrence during work and immediately after work"/>
+                <element label="作業中・作業直後の再発" language="ja" sequence="5" value="Recurrence during work and immediately after work"/>
+                <element label="Bug in UI / VU" sequence="6" value="Bug in UI / VU"/>
+                <element label="UI / VU時の不具合" language="ja" sequence="6" value="Bug in UI / VU"/>
+                <element label="EoS" language="ja" sequence="7" value="EoS"/>
+                <element label="EoS" sequence="7" value="EoS"/>
+                <element label="Billing / Delay" sequence="8" value="Billing / Delay"/>
+                <element label="請求もれ・遅れ" language="ja" sequence="8" value="Billing / Delay"/>
+                <element label="Reason for negotiation" sequence="9" value="Reason for negotiation"/>
+                <element label="商談上の理由" language="ja" sequence="9" value="Reason for negotiation"/>
+                <element label="Reason for business negotiation" sequence="10" value="Reason for business negotiation"/>
+                <element label="営業買換え商談上の理由" language="ja" sequence="10" value="Reason for business negotiation"/>
+                <element label="Inadequate contract" sequence="11" value="Inadequate contract"/>
+                <element label="契約上の不備" language="ja" sequence="11" value="Inadequate contract"/>
+                <element label="Equipment quality issue" sequence="12" value="Equipment quality issue"/>
+                <element label="装置品質上の問題" language="ja" sequence="12" value="Equipment quality issue"/>
+                <element label="Parts quality issue" sequence="13" value="Parts quality issue"/>
+                <element label="パーツ品質上の問題" language="ja" sequence="13" value="Parts quality issue"/>
+                <element label="TVA reasons" sequence="14" value="TVA reasons"/>
+                <element label="TVA 理由" language="ja" sequence="14" value="TVA reasons"/>
+                <element label="Import transducer reason" sequence="15" value="Import transducer reason"/>
+                <element label="輸入transducer理由" language="ja" sequence="15" value="Import transducer reason"/>
+                <element label="Other reasons for Probe" sequence="16" value="Other reasons for Probe"/>
+                <element label="その他プローベ理由" language="ja" sequence="16" value="Other reasons for Probe"/>
+                <element label="Domestic Procurement issue" sequence="17" value="Domestic Procurement issue"/>
+                <element label="国内品の不具合" language="ja" sequence="17" value="Domestic Procurement issue"/>
+                <element label="Other" sequence="18" value="Other"/>
+                <element label="その他" language="ja" sequence="18" value="Other"/>
+                <element label="Travel only" sequence="19" value="Travel only"/>
+                <element label="トラベルオンリー" language="ja" sequence="19" value="Travel only"/>
+            </choice>
+        </element>
+        <element label="Inquiry From HQ" max_length="40" name="u_honshayori_toiawase" type="string"/>
+        <element label="Total Actual Cost" max_length="40" name="u_jissai_genkakei" type="integer"/>
+        <element label="Actual Issue Date" max_length="40" name="u_jisseki_hakkou_date" type="glide_date"/>
+        <element label="Higher Order Number" max_length="40" name="u_joi_shizu" type="longint"/>
+        <element label="Function Place" max_length="40" name="u_kinou_basyo" type="string"/>
+        <element label="Customer Invoice Amount (w/o Tax)" max_length="40" name="u_kokyaku_seik_ngaku_zeinuki" type="decimal"/>
+        <element label="Defect Issue Date" max_length="40" name="u_kosho_hakko_date" type="glide_date"/>
+        <element label="Latest Dispatch Date" max_length="40" name="u_latest_dispatch_date" type="glide_date"/>
+        <element attributes="ref_contributions=x_saghs_jp_qtm_(SNJ) Related_Qurto_History" label="Quotation Number" max_length="32" name="u_list_for_quo" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Quotation Link" max_length="40" name="u_mitsumori_link" type="string"/>
+        <element label="OPT_1" max_length="40" name="u_opt_1" type="string"/>
+        <element label="PTBL_CRTD" max_length="40" name="u_ptbl_crtd" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Quotation Status" max_length="40" name="u_quotation_status" type="string">
+            <choice/>
+        </element>
+        <element label="Quote Closed" max_length="40" name="u_quote_closed" read_only="true" type="boolean"/>
+        <element label="Sales_office" max_length="40" name="u_sales_office" reference="cmn_location" type="reference"/>
+        <element label="Hospital_name" max_length="40" name="u_secchibasyo" reference="customer_account" type="reference"/>
+        <element label="Bill To" max_length="40" name="u_seikyusaki" type="string"/>
+        <element label="Invoice Number" max_length="40" name="u_seikyusho_number" type="string"/>
+        <element label="Invoice Registration Date" max_length="40" name="u_seikyu_torokubi" type="glide_date"/>
+        <element label="Invoice Registration Request Date" max_length="40" name="u_seikyu_torokuiraibi" type="glide_date"/>
+        <element label="WIP Reason Type" max_length="40" name="u_shikakari_riyu_kubun" type="string"/>
+        <element display="true" label="Order Number" max_length="40" name="u_shizu_number" type="string"/>
+        <element label="Order Text" max_length="40" name="u_shizu_text" type="string"/>
+        <element label="Order Type" max_length="40" name="u_shizu_type" type="string"/>
+        <element label="Status" max_length="128" name="u_status" type="string"/>
+        <element label="Technical objects Text" max_length="40" name="u_taiougijutsu_text" type="string"/>
+        <element label="Task Code Text" max_length="40" name="u_task_code_text" type="string"/>
+        <element label="Task Test" max_length="40" name="u_task_test" type="string"/>
+        <element label="TECO Completion Date" max_length="40" name="u_teco_kanryobi" type="glide_date"/>
+        <element label="Specific Remarks" max_length="128" name="u_tokutei_biko" type="string"/>
+        <element label="Notification number" max_length="40" name="u_tsuchi_number" type="string"/>
+        <element label="Notification Status" max_length="40" name="u_tsuchi_status" type="string"/>
+        <element label="Sales Plan" max_length="40" name="u_uriageyotei" type="string"/>
+        <element label="Reserved Item" max_length="40" name="u_yoyakuzumi_komoku" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Watch list" max_length="1024" name="watch_list" reference="sys_user" type="glide_list"/>
+        <element label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_shizu_number"/>
+        </index>
+        <index name="index2">
+            <element name="u_employee_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_fl_number"/>
+        </index>
+        <index name="index4">
+            <element name="u_list_for_quo"/>
+        </index>
+    </element>
+</database>

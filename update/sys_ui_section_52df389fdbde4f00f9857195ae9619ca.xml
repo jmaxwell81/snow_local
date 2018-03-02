@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Customer Info" section_id="52df389fdbde4f00f9857195ae9619ca" sys_domain="global" table="x_saghs_jp_qtm_ii_shikakari_list" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>08a01098db070700f9857195ae96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <text>Installation Location</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>0ca01098db070700f9857195ae96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <text>Bill To</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>08a01098db070700f9857195ae96195d</element>
+            <position>0</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>cca01098db070700f9857195ae96195d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_area</element>
+            <position>1</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>40a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.account.u_sales_office.name</element>
+            <position>2</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c0a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.account.u_customer_no</element>
+            <position>3</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>44a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c4a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0ca01098db070700f9857195ae96195d</element>
+            <position>5</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>48a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.model</element>
+            <position>6</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c8a01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>4ca01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>cca01098db070700f9857195ae96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_secchibasyo</element>
+            <position>9</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>40a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.account.u_address</element>
+            <position>10</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c0a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_customer_dep</element>
+            <position>11</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>44a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_customer_person</element>
+            <position>12</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c4a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_customer_superscription</element>
+            <position>13</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>48a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_comment</element>
+            <position>14</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c8a01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>15</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>4ca01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_code</element>
+            <position>16</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>cca01098db070700f9857195ae96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_code.u_address</element>
+            <position>17</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>40a01098db070700f9857195ae961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_dep</element>
+            <position>18</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c0a01098db070700f9857195ae961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_person</element>
+            <position>19</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>44a01098db070700f9857195ae961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fl_number.u_comp_data.u_bill_to_address</element>
+            <position>20</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-12-11 01:13:20</sys_created_on>
+            <sys_id>c4a01098db070700f9857195ae961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_ii_shikakari_list" sys_domain="global" view="Default view">52df389fdbde4f00f9857195ae9619ca</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-12-11 01:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Customer Info</caption>
+            <header>false</header>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-13 05:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52df389fdbde4f00f9857195ae9619ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Customer Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_section_52df389fdbde4f00f9857195ae9619ca</sys_update_name>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-28 02:09:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>(SNJ) Clean FL Table</name>
+        <run_as display_value="Daniel Brewitt">51a6e1acdbed8300aca3f7adae9619dd</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-11-18 12:50:22</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[function deleteFL()
+{
+var count = 0; 
+var q = 'asset_tag=NULL';
+var rec = new GlideRecord('alm_hardware');
+rec.addEncodedQuery(q);
+rec.query();
+while(rec.next()){
+count++;
+rec.deleteRecord();
+}
+gs.info(count);
+}
+
+deleteFL();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-18 12:50:43</sys_created_on>
+        <sys_id>1293d4c9dbaa8340f9857195ae96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(SNJ) Clean FL Table</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sysauto_script_1293d4c9dbaa8340f9857195ae96191e</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-11-18 12:50:43</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

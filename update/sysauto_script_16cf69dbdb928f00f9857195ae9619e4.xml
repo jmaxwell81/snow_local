@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>(SNJ) Populate Intramart to FL relationship</name>
+        <run_as display_value="Miki Keiichi">684621a8dbed8300aca3f7adae9619f7</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-11-13 09:03:46</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var count = 0;
+var flr = new GlideRecord('alm_hardware');
+var q = 'u_ref_intraISEMPTY';
+flr.addEncodedQuery(q);
+flr.query();
+
+while (flr.next()) {
+	var cdr = new GlideRecord('x_saghs_jp_qtm_ii_intrarmart_contract');
+	cdr.addQuery('u_functional_location',flr.sys_id);
+	cdr.query();
+	
+	if (cdr.next()) {
+		flr.u_ref_intra = cdr.sys_id;
+		flr.update();
+		count++;
+	}
+}
+
+gs.info(count+ " FL records updated");
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Miki Keiichi</sys_created_by>
+        <sys_created_on>2017-11-13 09:04:20</sys_created_on>
+        <sys_id>16cf69dbdb928f00f9857195ae9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>(SNJ) Populate Intramart to FL relationship</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sysauto_script_16cf69dbdb928f00f9857195ae9619e4</sys_update_name>
+        <sys_updated_by>Miki Keiichi</sys_updated_by>
+        <sys_updated_on>2017-11-13 09:04:20</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2f9a8a6edbf18300f9857195ae9619c4" sys_domain="global" table="x_saghs_jp_qtm_quotation" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 06:34:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79a4e6edbf18300f9857195ae961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Quote General Information" display_value="Quote General Information" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2ed3b122dbf18300f9857195ae96190d</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 06:34:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-31 00:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d073c50bdb8a0700f9857195ae9619b0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Customer Info" display_value="Customer Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">dc73c50bdb8a0700f9857195ae9619aa</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-08 12:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-10 05:04:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a5c111adbdecb00f9857195ae96197e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Contract Info" display_value="Contract Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">9e5c111adbdecb00f9857195ae961978</sys_ui_section>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-16 05:27:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 06:58:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f440daa2db358300f9857195ae96192c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Repair Info" display_value="Repair Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">3c40daa2db358300f9857195ae961929</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-08 12:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 05:19:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ffacc85fdb35c300aca3f7adae96192f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Labour Cost Info" display_value="Labour Cost Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">7bacc85fdb35c300aca3f7adae96192d</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-08 12:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 09:46:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1d94553dbf5c300aca3f7adae961949</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Parts Cost Info" display_value="Parts Cost Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">25d94553dbf5c300aca3f7adae961946</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-08 12:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 09:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82570153dbf5c300aca3f7adae96195f</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Domestic Procurement Info" display_value="Domestic Procurement Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">42570153dbf5c300aca3f7adae96195c</sys_ui_section>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-11-08 12:00:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-19 09:32:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05a64913dbf5c300aca3f7adae96196b</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Other" display_value="Other" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">01a64913dbf5c300aca3f7adae961968</sys_ui_section>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 00:23:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-18 06:49:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75c75336dbbd8300f9857195ae961991</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Discount Info" display_value="Discount Info" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">21c75336dbbd8300f9857195ae96198e</sys_ui_section>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-17 00:23:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>Geishin.Ro</sys_created_by>
+            <sys_created_on>2017-11-09 04:11:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e586440edb16cb00aca3f7adae9619b5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_saghs_jp_qtm_quotation" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2f9a8a6edbf18300f9857195ae9619c4</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_saghs_jp_qtm_quotation" sys_domain="global" view="Default view">2586440edb16cb00aca3f7adae961903</sys_ui_section>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-10 05:04:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_saghs_jp_qtm_quotation</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 06:34:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f9a8a6edbf18300f9857195ae9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_quotation</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2f9a8a6edbf18300f9857195ae9619c4</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 06:34:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

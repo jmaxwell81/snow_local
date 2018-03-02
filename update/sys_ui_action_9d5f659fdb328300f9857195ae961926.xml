@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>new x_saghs_jp_qtm.QuotePDFAjax().getLatestPDFRecord(current.u_quote_no) == current.sys_id</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create PDF</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var svf_auth_util = new x_saghs_svf_util.SVFAuthUtil();
+var svf_print_util = new x_saghs_svf_util.SVFPrintUtil();
+var svf_csv_util = new x_saghs_svf_util.SVFCSVUtil();
+
+var csv_data = '';
+csv_data += '顧客,総価格,受渡場所,御支払条件,見積有効期間,備考,弊社整理番号,Date,SalesTax,弊社連絡先,住所,会社,営業所,所長,image,品名,数量,単価,金額\n';
+var headers = '';
+headers = svf_csv_util.addValueWithDQ(headers,current.bill_to + ' ' + current.u_honorific); //顧客
+headers = svf_csv_util.addValueWithoutDQ(headers,current.u_grand_total); //総価格
+headers = svf_csv_util.addValueWithDQ(headers,current.u_delivery_address); //受渡場所
+headers = svf_csv_util.addValueWithDQ(headers,current.u_tandc); //お支払い条件
+headers = svf_csv_util.addDateWithSlash(headers,current.u_quote_validity.getDisplayValue()); //見積有効期間
+headers = svf_csv_util.addValueWithDQ(headers,current.u_notes); //備考
+headers = svf_csv_util.addValueWithDQ(headers,current.u_quote_no.number); //弊社整理番号
+headers = svf_csv_util.addDateWithSlash(headers,current.u_date.getDisplayValue()); //Date
+headers = svf_csv_util.addValueWithoutDQ(headers,current.u_quote_no.u_c_tax_rate);//SalseTax
+headers = svf_csv_util.addValueWithDQ(headers,current.u_contact); //弊社連絡先
+headers = svf_csv_util.addValueWithDQ(headers,current.u_so_address); //住所
+headers = svf_csv_util.addValueWithDQ(headers,gs.getProperty('x_saghs_jp_qtm.company_name')); //会社
+headers = svf_csv_util.addValueWithDQ(headers,current.u_sales_office); //営業所
+headers = svf_csv_util.addValueWithDQ(headers,current.u_manager); //所長
+var need_stamp = '' + current.u_quote_no.u_stamp;
+if(need_stamp == 'true'){
+	headers = svf_csv_util.addValueWithDQ(headers,'ON');
+} else {
+	headers = svf_csv_util.addValueWithDQ(headers,'OFF');
+}
+
+//タイトル行
+var title_line = headers;
+title_line = svf_csv_util.addValueWithDQ(title_line,current.u_title);
+title_line = svf_csv_util.addComma(title_line,3);
+csv_data += title_line + '\n';
+
+//装置名行
+var equipment_line = headers;
+equipment_line = svf_csv_util.addValueWithDQ(equipment_line,current.u_equipment);
+equipment_line = svf_csv_util.addComma(equipment_line,3);
+csv_data += equipment_line + '\n';
+
+//時間指定タイプ行
+var repairtype_line = headers;
+repairtype_line = svf_csv_util.addValueWithDQ(repairtype_line,current.u_quote_no.u_repair_type.u_shuri_type);
+repairtype_line = svf_csv_util.addComma(repairtype_line,3);
+csv_data += repairtype_line + '\n';
+
+//空行
+var empty_line = headers;
+empty_line = svf_csv_util.addComma(empty_line,4);
+csv_data += empty_line + '\n';
+
+//初回対応費
+if(!current.u_labour.nil()){
+	var engagement_fee_line = headers;
+	engagement_fee_line = svf_csv_util.addValueWithDQ(engagement_fee_line,'初回対応費（派遣費含む）');
+	engagement_fee_line = svf_csv_util.addComma(engagement_fee_line,2);
+	engagement_fee_line = svf_csv_util.addValueWithoutDQ(engagement_fee_line,0+current.u_quote_no.u_repair_type.u_shotaiouhi);
+	csv_data += engagement_fee_line + '\n';
+}
+
+//部品手配費
+if(!current.u_parts.nil()){
+	var parts_handling_fee_line = headers;
+	parts_handling_fee_line = svf_csv_util.addValueWithDQ(parts_handling_fee_line,'部品手配費');
+	parts_handling_fee_line = svf_csv_util.addComma(parts_handling_fee_line,2);
+	parts_handling_fee_line = svf_csv_util.addValueWithoutDQ(parts_handling_fee_line,0+current.u_quote_no.u_repair_type.u_buhintehaihi);
+	csv_data += parts_handling_fee_line + '\n';
+}
+
+//作業費
+if(!current.u_labour.nil()){
+	var standard_labor_total = 0;
+	var overtime_labor_total = 0;
+	var labor_lines = current.u_labour.split(',');
+	for(var i=0; i < labor_lines.length; i++){
+		var labor = new GlideRecord('x_saghs_jp_qtm_labour_cost');
+		if(labor.get(labor_lines[i])){
+			var work_mins_n = labor.u_work_hours.dateNumericValue() / 1000 / 60;
+			var work_mins_o = labor.u_overtime_hours.dateNumericValue() / 1000 / 60;
+			
+			var use_nHours_f = (Math.floor(work_mins_n/15)*15) / 60;
+			var use_oHours_f = (Math.floor(work_mins_o/15)*15) / 60;
+			
+			standard_labor_total += parseFloat(use_nHours_f);
+			overtime_labor_total += parseFloat(use_oHours_f);
+		}
+	}
+	if(standard_labor_total != 0){
+		var standard_labor_rate = Number(current.standard_labour_rate);
+		var standard_labor_line = headers;
+		standard_labor_line = svf_csv_util.addValueWithDQ(standard_labor_line,'作業費時間内');
+		standard_labor_line = svf_csv_util.addValueWithoutDQ(standard_labor_line,standard_labor_total);
+		standard_labor_line = svf_csv_util.addValueWithoutDQ(standard_labor_line,standard_labor_rate);
+		standard_labor_line = svf_csv_util.addValueWithoutDQ(standard_labor_line,standard_labor_rate*standard_labor_total);
+		csv_data += standard_labor_line + '\n';
+	}
+	if(overtime_labor_total != 0){
+		var overtime_labor_rate = Number(current.overtime_labour_rate);
+		var overtime_labor_line = headers;
+		overtime_labor_line = svf_csv_util.addValueWithDQ(overtime_labor_line,'作業費時間外');
+		overtime_labor_line = svf_csv_util.addValueWithoutDQ(overtime_labor_line,overtime_labor_total);
+		overtime_labor_line = svf_csv_util.addValueWithoutDQ(overtime_labor_line,overtime_labor_rate);
+		overtime_labor_line = svf_csv_util.addValueWithoutDQ(overtime_labor_line,overtime_labor_rate*overtime_labor_total);
+		csv_data += overtime_labor_line + '\n';
+	}
+}
+
+//部品費
+if(!current.u_parts.nil()){
+	var parts_lines = current.u_parts.split(',');
+	for(var i=0; i<parts_lines.length; i++){
+		var parts = new GlideRecord('x_saghs_jp_qtm_parts_cost_info');
+		if(parts.get(parts_lines[i])){
+			var parts_line_str = headers;
+			parts_line_str = svf_csv_util.addValueWithDQ(parts_line_str,parts.parts_name.u_display_name);
+			parts_line_str = svf_csv_util.addValueWithoutDQ(parts_line_str,parts.u_no_units);
+			parts_line_str = svf_csv_util.addValueWithoutDQ(parts_line_str,parts.parts_name.u_standard_price);
+			parts_line_str = svf_csv_util.addValueWithoutDQ(parts_line_str,parts.u_line_total);
+			csv_data += parts_line_str + '\n';
+		}
+	}
+}
+
+//国内調達品
+if(!current.u_domestic_procurement.nil()){
+	var domestic_procurement_lines = current.u_domestic_procurement.split(',');
+	for(var i=0; i<domestic_procurement_lines.length; i++){
+		var domestic_parts = new GlideRecord('x_saghs_jp_qtm_domestic_proc_info');
+		if(domestic_parts.get(domestic_procurement_lines[i])){
+			var domestic_parts_line_str = headers;
+			domestic_parts_line_str = svf_csv_util.addValueWithDQ(domestic_parts_line_str,domestic_parts.u_procure_item);
+			domestic_parts_line_str = svf_csv_util.addValueWithoutDQ(domestic_parts_line_str,domestic_parts.u_no_units);
+			domestic_parts_line_str = svf_csv_util.addValueWithoutDQ(domestic_parts_line_str,Math.floor(domestic_parts.u_unit_price * domestic_parts.u_multiplier));
+			domestic_parts_line_str = svf_csv_util.addValueWithoutDQ(domestic_parts_line_str,domestic_parts.u_line_total);
+			csv_data += domestic_parts_line_str + '\n';
+		}
+	}
+}
+
+//その他
+if(!current.u_other.nil()){
+	var other_lines = current.u_other.split(',');
+	for(var i=0; i<other_lines.length; i++){
+		var other = new GlideRecord('x_saghs_jp_qtm_other');
+		if(other.get(other_lines[i])){
+			var other_line_str = headers;
+			other_line_str = svf_csv_util.addValueWithDQ(other_line_str,other.u_other_name);
+			other_line_str = svf_csv_util.addValueWithoutDQ(other_line_str,other.u_no_units);
+			other_line_str = svf_csv_util.addValueWithoutDQ(other_line_str,other.u_unit_price);
+			other_line_str = svf_csv_util.addValueWithoutDQ(other_line_str,other.u_line_total);
+			csv_data += other_line_str + '\n';
+		}
+	}
+}
+
+//空行
+csv_data += empty_line + '\n';
+
+//値引き
+if(current.u_discount != 0){
+	var discount_line = headers;
+	discount_line = svf_csv_util.addComma(discount_line,2);
+	discount_line = svf_csv_util.addValueWithDQ(discount_line,'値引き');
+	discount_line = svf_csv_util.addValueRemovingComma(discount_line,current.u_discount);
+	csv_data += discount_line + '\n';
+}
+
+//消費税抜価格
+var without_tax_line = headers;
+without_tax_line = svf_csv_util.addComma(without_tax_line,2);
+without_tax_line = svf_csv_util.addValueWithDQ(without_tax_line,'消費税抜価格');
+without_tax_line = svf_csv_util.addValueWithoutDQ(without_tax_line,current.u_quote_no.u_ground_total_without_txt);
+csv_data += without_tax_line + '\n';
+
+//消費税額
+var tax_line = headers;
+tax_line = svf_csv_util.addComma(tax_line,2);
+tax_line = svf_csv_util.addValueWithDQ(tax_line,'消費税額');
+tax_line = svf_csv_util.addValueRemovingComma(tax_line,current.u_tax);
+csv_data += tax_line + '\n';
+
+//総価格
+var total_price_line = headers;
+total_price_line = svf_csv_util.addComma(total_price_line,2);
+total_price_line = svf_csv_util.addValueWithDQ(total_price_line,'総価格');
+total_price_line = svf_csv_util.addValueWithoutDQ(total_price_line,current.u_grand_total);
+csv_data += total_price_line + '\n';
+
+gs.info("csv_data: " + csv_data);
+//gs.info("headers: " + headers);
+
+//JWT Token generation
+var clientId = gs.getProperty("x_saghs_svf_util.clientID");
+var userId = gs.getProperty("x_saghs_svf_util.userID");
+var exptime = 3600;
+var userName = gs.getUserDisplayName();
+var svfcert = gs.getProperty("x_saghs_svf_util.certSysID");
+
+var jwttoken = svf_auth_util.getJWTToken(clientId, userId, exptime, userName, svfcert);
+//gs.info("JWTToken: " + jwttoken);
+
+//Access token get
+var accessToken = svf_auth_util.getAccessToken(jwttoken);
+//gs.info("AccessToken: " + accessToken);
+
+//accessToken = '7109af3c1198cdbd08dcfde16dd80d556b1d343b823f6a858300b8731b660dbf';
+
+var formFilePath = gs.getProperty("x_saghs_jp_qtm.qtmPDFForm");
+var apiLocation = svf_print_util.getAPILocation(formFilePath,accessToken,csv_data);
+var tablename = current.getTableName();
+var recordSysId = current.sys_id;
+//var filename =  current.u_quote_no.number + ".pdf";
+var filename =  current.u_title + ".pdf";
+
+var attachmentSysId = svf_print_util.createAttachment(apiLocation,tablename,recordSysId,filename);
+gs.addInfoMessage("Attachment file: " + filename + " created!!");
+current.update();
+action.setRedirectURL(current);
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Shinsaku Kudomi</sys_created_by>
+        <sys_created_on>2017-12-08 05:33:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d5f659fdb328300f9857195ae961926</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>Create PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_action_9d5f659fdb328300f9857195ae961926</sys_update_name>
+        <sys_updated_by>Shinsaku Kudomi</sys_updated_by>
+        <sys_updated_on>2018-01-13 23:34:05</sys_updated_on>
+        <table>x_saghs_jp_qtm_quote_records_for_pdf</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

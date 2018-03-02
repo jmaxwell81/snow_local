@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_saghs_jp_qtm.quote_records_for_pdf_user" name="x_saghs_jp_qtm.quote_records_for_pdf_user">e4db5cf5db428300aca3f7adae96197e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-10-27 00:50:20</sys_created_on>
+        <sys_id>64db5cf5db428300aca3f7adae961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e4db5cf5db428300aca3f7adae96197e</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_64db5cf5db428300aca3f7adae961980</sys_update_name>
+        <sys_updated_by>Daniel Brewitt</sys_updated_by>
+        <sys_updated_on>2017-10-27 00:50:20</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

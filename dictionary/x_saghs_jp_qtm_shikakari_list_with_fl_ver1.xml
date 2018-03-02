@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="shikakari_list_with_FL_ver1" max_length="40" name="x_saghs_jp_qtm_shikakari_list_with_fl_ver1" sizeclass="12312" type="collection">
+        <element attributes="import_attribute_name=Account_manager,edge_encryption_enabled=true" label="Account_manager" max_length="40" name="u_account_manager" type="string"/>
+        <element attributes="import_attribute_name=Actual Issue Date" label="Actual Issue Date" max_length="40" name="u_actual_issue_date" type="glide_date"/>
+        <element attributes="import_attribute_name=AGE" label="AGE" max_length="40" name="u_age" type="integer"/>
+        <element attributes="import_attribute_name=AS,edge_encryption_enabled=true" label="AS" max_length="40" name="u_as" type="string"/>
+        <element attributes="import_attribute_name=Bill To,edge_encryption_enabled=true" label="Bill To" max_length="40" name="u_bill_to" type="string"/>
+        <element attributes="import_attribute_name=Customer Invoice Amount (w/o Tax)" label="Customer Invoice Amount (w/o Tax)" max_length="40" name="u_customer_inv_ount__w_o_tax_" type="integer"/>
+        <element attributes="import_attribute_name=Defect Issue Date" label="Defect Issue Date" max_length="40" name="u_defect_issue_date" type="glide_date"/>
+        <element attributes="import_attribute_name=DNR,edge_encryption_enabled=true" label="DNR" max_length="40" name="u_dnr" type="string"/>
+        <element attributes="import_attribute_name=DNR_created_date" label="DNR_created_date" max_length="40" name="u_dnr_created_date" type="glide_date"/>
+        <element attributes="import_attribute_name=DST WIP Closing Request,edge_encryption_enabled=true" label="DST WIP Closing Request" max_length="66" name="u_dst_wip_closing_request" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="FL" max_length="40" name="u_fl" type="string"/>
+        <element attributes="import_attribute_name=Function Place,edge_encryption_enabled=true" label="Function Place" max_length="40" name="u_function_place" type="string"/>
+        <element attributes="import_attribute_name=Higher Order Number" label="Higher Order Number" max_length="40" name="u_higher_order_number" type="float"/>
+        <element attributes="import_attribute_name=Inquiry From HQ,edge_encryption_enabled=true" label="Inquiry From HQ" max_length="40" name="u_inquiry_from_hq" type="string"/>
+        <element attributes="import_attribute_name=Installation Place,edge_encryption_enabled=true" label="Installation Place" max_length="40" name="u_installation_place" type="string"/>
+        <element attributes="import_attribute_name=Invoice Number,edge_encryption_enabled=true" label="Invoice Number" max_length="40" name="u_invoice_number" type="string"/>
+        <element attributes="import_attribute_name=Invoice Registration Date" label="Invoice Registration Date" max_length="40" name="u_invoice_registration_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Invoice Registration Request Date" label="Invoice Registration Request Date" max_length="40" name="u_invoice_regi_n_request_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Latest Dispatch Date" label="Latest Dispatch Date" max_length="40" name="u_latest_dispatch_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Notification number" label="Notification number" max_length="40" name="u_notification_number" type="float"/>
+        <element attributes="import_attribute_name=Notification Status,edge_encryption_enabled=true" label="Notification Status" max_length="40" name="u_notification_status" type="string"/>
+        <element attributes="import_attribute_name=OPT_1,edge_encryption_enabled=true" label="OPT_1" max_length="40" name="u_opt_1" type="string"/>
+        <element attributes="import_attribute_name=OPT_2,edge_encryption_enabled=true" label="OPT_2" max_length="40" name="u_opt_2" type="string"/>
+        <element attributes="import_attribute_name=OPT_3,edge_encryption_enabled=true" label="OPT_3" max_length="40" name="u_opt_3" type="string"/>
+        <element attributes="import_attribute_name=OPT_6,edge_encryption_enabled=true" label="OPT_6" max_length="40" name="u_opt_6" type="string"/>
+        <element attributes="import_attribute_name=OPT_7,edge_encryption_enabled=true" label="OPT_7" max_length="40" name="u_opt_7" type="string"/>
+        <element attributes="import_attribute_name=OPT_8,edge_encryption_enabled=true" label="OPT_8" max_length="40" name="u_opt_8" type="string"/>
+        <element attributes="import_attribute_name=Order Number" label="Order Number" max_length="40" name="u_order_number" type="float"/>
+        <element attributes="import_attribute_name=Order Text,edge_encryption_enabled=true" label="Order Text" max_length="40" name="u_order_text" type="string"/>
+        <element attributes="import_attribute_name=Order Type,edge_encryption_enabled=true" label="Order Type" max_length="40" name="u_order_type" type="string"/>
+        <element attributes="import_attribute_name=Place,edge_encryption_enabled=true" label="Place" max_length="40" name="u_place" type="string"/>
+        <element attributes="import_attribute_name=PTBL_CRTD,edge_encryption_enabled=true" label="PTBL_CRTD" max_length="40" name="u_ptbl_crtd" type="string"/>
+        <element attributes="import_attribute_name=Quotation Link,edge_encryption_enabled=true" label="Quotation Link" max_length="40" name="u_quotation_link" type="string"/>
+        <element attributes="import_attribute_name=Remarks (CSG),edge_encryption_enabled=true" label="Remarks (CSG)" max_length="255" name="u_remarks__csg_" type="string"/>
+        <element attributes="import_attribute_name=Remarks (DST),edge_encryption_enabled=true" label="Remarks (DST)" max_length="82" name="u_remarks__dst_" type="string"/>
+        <element attributes="import_attribute_name=Reserved Item,edge_encryption_enabled=true" label="Reserved Item" max_length="40" name="u_reserved_item" type="string"/>
+        <element attributes="import_attribute_name=Sales_office,edge_encryption_enabled=true" label="Sales_office" max_length="40" name="u_sales_office" type="string"/>
+        <element attributes="import_attribute_name=Sales Plan,edge_encryption_enabled=true" label="Sales Plan" max_length="40" name="u_sales_plan" type="string"/>
+        <element attributes="import_attribute_name=Specific Remarks,edge_encryption_enabled=true" label="Specific Remarks" max_length="127" name="u_specific_remarks" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Task Code Text,edge_encryption_enabled=true" label="Task Code Text" max_length="40" name="u_task_code_text" type="string"/>
+        <element attributes="import_attribute_name=Task Test,edge_encryption_enabled=true" label="Task Test" max_length="40" name="u_task_test" type="string"/>
+        <element attributes="import_attribute_name=Technical objects Text,edge_encryption_enabled=true" label="Technical objects Text" max_length="40" name="u_technical_objects_text" type="string"/>
+        <element attributes="import_attribute_name=TECO Completion Date" label="TECO Completion Date" max_length="40" name="u_teco_completion_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Total Actual Cost,edge_encryption_enabled=true" label="Total Actual Cost" max_length="40" name="u_total_actual_cost" type="string"/>
+        <element attributes="import_attribute_name=WIP Reason Type,edge_encryption_enabled=true" label="WIP Reason Type" max_length="40" name="u_wip_reason_type" type="string"/>
+    </element>
+</database>

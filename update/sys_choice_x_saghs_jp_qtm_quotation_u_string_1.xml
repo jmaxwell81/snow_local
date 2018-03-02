@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_1" table="x_saghs_jp_qtm_quotation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 1</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 05:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4b7f1e2dbf18300f9857195ae961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 05:11:30</sys_updated_on>
+            <value>選択肢 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 2</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 05:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68b7f1e2dbf18300f9857195ae961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 05:11:30</sys_updated_on>
+            <value>選択肢 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>選択肢 3</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>2</sequence>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 05:11:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4b7f1e2dbf18300f9857195ae961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 05:11:30</sys_updated_on>
+            <value>選択肢 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-17 05:11:30</sys_created_on>
+            <sys_id>24b7f1e2dbf18300f9857195ae961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_1</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_quotation_u_string_1</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-17 05:11:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

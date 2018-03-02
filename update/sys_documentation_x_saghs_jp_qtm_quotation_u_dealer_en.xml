@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_dealer" label="Dealer" language="en" table="x_saghs_jp_qtm_quotation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_dealer</element>
+            <help/>
+            <hint/>
+            <label>Dealer</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <plural>Dealers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-18 03:41:44</sys_created_on>
+            <sys_id>57bc26bedb3d8300f9857195ae96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Dealer</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_quotation_u_dealer_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-18 03:41:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

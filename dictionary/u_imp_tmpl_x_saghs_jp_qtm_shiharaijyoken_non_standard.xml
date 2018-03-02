@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Saghs Jp Qtm Shiharaijyoken Non Standard" max_length="40" name="u_imp_tmpl_x_saghs_jp_qtm_shiharaijyoken_non_standard" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Order" max_length="40" name="u_order" type="string"/>
+        <element attributes="import_attribute_name=Payment Terms,edge_encryption_enabled=true" label="Payment Terms" max_length="40" name="u_payment_terms" type="string"/>
+        <element attributes="import_attribute_name=PayT,edge_encryption_enabled=true" label="PayT" max_length="40" name="u_payt" type="string"/>
+    </element>
+</database>

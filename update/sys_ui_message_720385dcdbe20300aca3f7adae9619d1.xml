@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>Installation Location</key>
+        <language>ja</language>
+        <message>設置場所</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>Geishin.Ro</sys_created_by>
+        <sys_created_on>2017-11-16 08:22:13</sys_created_on>
+        <sys_id>720385dcdbe20300aca3f7adae9619d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Installation Location</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_ui_message_720385dcdbe20300aca3f7adae9619d1</sys_update_name>
+        <sys_updated_by>Geishin.Ro</sys_updated_by>
+        <sys_updated_on>2017-11-16 08:22:35</sys_updated_on>
+    </sys_ui_message>
+</record_update>

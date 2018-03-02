@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Quote Records for PDF" max_length="40" name="x_saghs_jp_qtm_quote_records_for_pdf" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Bill To" max_length="100" name="bill_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Overtime Labor Rate" max_length="40" name="overtime_labour_rate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Standard Labor Rate" max_length="40" name="standard_labour_rate" type="string"/>
+        <element label="Contact" max_length="64" name="u_contact" type="string"/>
+        <element label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element label="Delivery Address" max_length="512" name="u_delivery_address" type="string"/>
+        <element label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element label="Discount" max_length="64" name="u_discount" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Domestic Procurement" max_length="1024" name="u_domestic_procurement" reference="x_saghs_jp_qtm_domestic_proc_info" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Equipment Name" max_length="40" name="u_equipment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Final Quotation" max_length="40" name="u_final_quotation" type="string">
+            <choice>
+                <element label="◯" sequence="0" value="true"/>
+            </choice>
+        </element>
+        <element label="Total Amount" max_length="20" name="u_grand_total" type="currency"/>
+        <element label="Handling Fee" max_length="48" name="u_handling_fee" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="殿" label="Honorific" max_length="40" name="u_honorific" type="string"/>
+        <element label="Inquiry Date" max_length="40" name="u_inquiry_date" type="glide_date"/>
+        <element label="Inquiry No" max_length="128" name="u_inquiry_no" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Labor" max_length="1024" name="u_labour" reference="x_saghs_jp_qtm_labour_cost" type="glide_list"/>
+        <element label="Manager" max_length="64" name="u_manager" type="string"/>
+        <element label="Notes" max_length="1024" name="u_notes" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Other Costs" max_length="1024" name="u_other" reference="x_saghs_jp_qtm_other" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Parts" max_length="1024" name="u_parts" reference="x_saghs_jp_qtm_parts_cost_info" type="glide_list"/>
+        <element label="HTML for PDF" max_length="2048" name="u_pdf_html" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Quotation_memo" max_length="40" name="u_quotation_memo" type="string"/>
+        <element label="Quote No" max_length="32" name="u_quote_no" reference="x_saghs_jp_qtm_quotation" type="reference"/>
+        <element label="Validity of Quote" max_length="128" name="u_quote_validity" type="glide_date"/>
+        <element label="Final Quotation" max_length="40" name="u_request_invoice" type="boolean"/>
+        <element label="Sales Office" max_length="128" name="u_sales_office" type="string"/>
+        <element label="Sales Office Address" max_length="128" name="u_so_address" type="string"/>
+        <element label="Quote Status" max_length="64" name="u_status" type="string"/>
+        <element label="Terms &amp; Conditions" max_length="128" name="u_tandc" type="string"/>
+        <element label="Tax" max_length="64" name="u_tax" type="string"/>
+        <element label="Title" max_length="64" name="u_title" type="string"/>
+        <index name="index">
+            <element name="u_quote_no"/>
+        </index>
+    </element>
+</database>

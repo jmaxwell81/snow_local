@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_c_tax_rate" table="x_saghs_jp_qtm_quotation" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_c_tax_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 Percent</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-26 12:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76b1b16ddbca4300aca3f7adae961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-26 12:27:12</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_c_tax_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 パーセント</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>0</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-15 01:31:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c7b567fdb5ecf00aca3f7adae9619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-15 01:31:28</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_c_tax_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 Percent</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-26 12:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6b1b16ddbca4300aca3f7adae96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-26 12:27:12</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_c_tax_rate</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10 パーセント</label>
+            <language>ja</language>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sequence>1</sequence>
+            <sys_created_by>Hironori.Iizuka</sys_created_by>
+            <sys_created_on>2017-11-15 01:31:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac8bd67fdb5ecf00aca3f7adae96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Hironori.Iizuka</sys_updated_by>
+            <sys_updated_on>2017-11-15 01:31:46</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_c_tax_rate</element>
+            <name>x_saghs_jp_qtm_quotation</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Daniel Brewitt</sys_created_by>
+            <sys_created_on>2017-10-26 12:27:12</sys_created_on>
+            <sys_id>b2b1b16ddbca4300aca3f7adae96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_c_tax_rate</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_choice_x_saghs_jp_qtm_quotation_u_c_tax_rate</sys_update_name>
+            <sys_updated_by>Daniel Brewitt</sys_updated_by>
+            <sys_updated_on>2017-10-26 12:27:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

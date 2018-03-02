@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_task_test" label="Task_test" language="en" table="x_saghs_jp_qtm_shikakari_list2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_task_test</element>
+            <help/>
+            <hint/>
+            <label>Task_test</label>
+            <language>en</language>
+            <name>x_saghs_jp_qtm_shikakari_list2</name>
+            <plural>Task_tests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-10-19 02:05:57</sys_created_on>
+            <sys_id>c6602783dbb5c300f9857195ae961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Task_test</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_saghs_jp_qtm_shikakari_list2_u_task_test_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-10-19 02:05:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

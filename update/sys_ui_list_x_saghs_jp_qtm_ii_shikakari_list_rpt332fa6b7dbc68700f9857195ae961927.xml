@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_saghs_jp_qtm_ii_shikakari_list" version="2" view="RPT332fa6b7dbc68700f9857195ae961927">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sales_office</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>396b5a66db838700aca3f7adae961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_shizu_number</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>356b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_list_for_quo</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>b56b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_kinou_basyo</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>396b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_tsuchi_status</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>b96b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_latest_dispatch_date</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>3d6b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_account_manager</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>bd6b16a6db838700aca3f7adae961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_secchibasyo</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>316b16a6db838700aca3f7adae961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_shizu_text</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>b16b16a6db838700aca3f7adae961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_age</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>356b16a6db838700aca3f7adae961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_status</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>b56b16a6db838700aca3f7adae961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_uriageyotei</element>
+            <list_id display_value="x_saghs_jp_qtm_ii_shikakari_list" element="NULL" name="x_saghs_jp_qtm_ii_shikakari_list" parent="NULL" relationship="NULL" sys_domain="global" view="437172f7dbc68700f9857195ae961979">b16b5a66db838700aca3f7adae961956</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_id>396b16a6db838700aca3f7adae961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_saghs_jp_qtm_ii_shikakari_list</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Ina Shinya</sys_created_by>
+            <sys_created_on>2017-12-18 11:05:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b16b5a66db838700aca3f7adae961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_saghs_jp_qtm_ii_shikakari_list</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_ui_list_x_saghs_jp_qtm_ii_shikakari_list_RPT332fa6b7dbc68700f9857195ae961927</sys_update_name>
+            <sys_updated_by>Ina Shinya</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:05:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt332fa6b7dbc68700f9857195ae961927" name="RPT332fa6b7dbc68700f9857195ae961927">437172f7dbc68700f9857195ae961979</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

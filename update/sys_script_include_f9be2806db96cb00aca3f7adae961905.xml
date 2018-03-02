@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_saghs_jp_qtm.QuotationAjaxUtil</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>QuotationAjaxUtil</name>
+        <script><![CDATA[var QuotationAjaxUtil = Class.create();
+QuotationAjaxUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getRelatedPeopleOfSalesOfficeByMainNotification: function () {
+		var rslt = [];
+		var sysId = this.getParameter('sysparm_main_notification_sysid');
+		var gr = new GlideRecord('x_saghs_jp_qtm_ii_shikakari_list');
+		if (gr.get(sysId)) {
+			var soSysID = gr.u_sales_office;
+			var grSO = new GlideRecord('cmn_location');
+			if (grSO.get(soSysID)) {
+				if (grSO.u_tmss_name) rslt.push(grSO.u_tmss_name.toString());
+					
+				if (grSO.u_ra_name_main) rslt.push(grSO.u_ra_name_main.toString());
+				if (grSO.u_ra_name_sub) rslt.push(grSO.u_ra_name_sub.toString());
+					
+				if (grSO.u_omsv_name_main) rslt.push(grSO.u_omsv_name_main.toString());
+				if (grSO.u_omsv_name_sub) rslt.push(grSO.u_omsv_name_sub.toString());
+				if (grSO.u_omsv_name_sub2) rslt.push(grSO.u_omsv_name_sub2.toString());
+				
+				if (grSO.u_asm_name_main) rslt.push(grSO.u_asm_name_main.toString());
+				if (grSO.u_asm_name_sub) rslt.push(grSO.u_asm_name_sub.toString());
+				if (grSO.u_asm_name_sub2) rslt.push(grSO.u_asm_name_sub2.toString());
+				
+				if (grSO.u_rsm_name_main) rslt.push(grSO.u_rsm_name_main.toString());
+								
+				return rslt.join(',');
+			}
+			
+		}
+		return '';
+	},
+	
+	getRelatedPeopleOfSalesOfficeByFl: function () {
+		var sysId = this.getParameter('sysparm_fl_sysid');
+		return new QuotationUtil().getRelatedPeopleOfSalesOfficeByFl(sysId);
+	},
+	
+	getInfoFromFl: function () {
+		var sysId = this.getParameter('sysparm_fl_sysid');
+		var gr = new GlideRecord('alm_hardware');
+		if (!gr.get(sysId)) 
+			return '';
+
+		var rslt = {device_name:"", hospital_name:""};
+		// Get Device name
+		if (gr.model) {
+			rslt.device_name = gr.model.getDisplayValue();
+		}
+		// Get Hospital name
+		if (gr.account) {
+			rslt.hospital_name = gr.account.name.toString();
+		}
+		return new global.JSON().encode(rslt);
+	},
+	
+	type: 'QuotationAjaxUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Geishin.Ro</sys_created_by>
+        <sys_created_on>2017-11-09 07:07:43</sys_created_on>
+        <sys_id>f9be2806db96cb00aca3f7adae961905</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>QuotationAjaxUtil</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_include_f9be2806db96cb00aca3f7adae961905</sys_update_name>
+        <sys_updated_by>Takuto.Suzuki</sys_updated_by>
+        <sys_updated_on>2017-12-12 04:00:54</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_order" label="Order" language="en" table="u_imp_tmpl_x_saghs_jp_qtm_shiharaijyoken_non_standard">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_order</element>
+            <help/>
+            <hint/>
+            <label>Order</label>
+            <language>en</language>
+            <name>u_imp_tmpl_x_saghs_jp_qtm_shiharaijyoken_non_standard</name>
+            <plural>Orders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Miki Keiichi</sys_created_by>
+            <sys_created_on>2017-11-21 10:36:06</sys_created_on>
+            <sys_id>78a15ff5dba24300f9857195ae96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Order</sys_name>
+            <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+            <sys_update_name>sys_documentation_u_imp_tmpl_x_saghs_jp_qtm_shiharaijyoken_non_standard_u_order_en</sys_update_name>
+            <sys_updated_by>Miki Keiichi</sys_updated_by>
+            <sys_updated_on>2017-11-21 10:36:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

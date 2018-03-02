@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-tempba1531f0dbd20b00f9857195ae9619cftest CSE02</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>test CSE02</sys_created_by>
+        <sys_created_on>2017-11-30 05:14:05</sys_created_on>
+        <sys_id>273e1cf8db7ec700aca3f7adae961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>test CSE02</sys_updated_by>
+        <sys_updated_on>2017-11-30 05:14:05</sys_updated_on>
+        <title>Rpt-tempba1531f0dbd20b00f9857195ae9619cftest cse02</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

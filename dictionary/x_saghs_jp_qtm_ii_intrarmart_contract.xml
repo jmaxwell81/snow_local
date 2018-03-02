@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Intramart Contract" max_length="40" name="x_saghs_jp_qtm_ii_intrarmart_contract" sizeclass="25915" type="collection">
+        <element label="Alert" max_length="40" name="u_alert" type="string"/>
+        <element label="Application Comments" max_length="4000" name="u_application_comments" type="string"/>
+        <element label="Auto Renewal (New)" max_length="40" name="u_auto_renewal_new" type="string"/>
+        <element label="Auto Renewal State" max_length="40" name="u_auto_renewal_state" type="string"/>
+        <element label="Business Line" max_length="40" name="u_business_line" type="string"/>
+        <element label="Category (pre-Status)" max_length="40" name="u_category_pre_status" type="string"/>
+        <element label="Commercial Remark" max_length="4000" name="u_commercial_remark" type="string"/>
+        <element label="Contract Amt" max_length="40" name="u_contract_amt" type="decimal"/>
+        <element label="Contract Breakdown ID" max_length="40" name="u_contract_breakdown_id" type="string"/>
+        <element label="Contract Category" max_length="40" name="u_contract_category" type="string"/>
+        <element label="Contract Code" max_length="40" name="u_contract_code" type="string"/>
+        <element label="Contract Name" max_length="100" name="u_contract_name" type="string"/>
+        <element label="Contract Remarks" max_length="4000" name="u_contract_remarks" type="string"/>
+        <element label="Contract Status" max_length="40" name="u_contract_status" type="string"/>
+        <element label="Customer ID" max_length="40" name="u_customer_id" type="string"/>
+        <element label="Customer Name Short" max_length="100" name="u_customer_name_short" type="string"/>
+        <element label="Days from Contract End" max_length="40" name="u_days_from_contract_end" type="integer"/>
+        <element label="Days from Warranty Start" max_length="40" name="u_days_from_warranty_start" type="integer"/>
+        <element label="Division" max_length="40" name="u_division" type="string"/>
+        <element label="EOD" max_length="40" name="u_eod" type="string"/>
+        <element label="EOS" max_length="40" name="u_eos" type="string"/>
+        <element label="Equipment Name" max_length="100" name="u_equipment_name" type="string"/>
+        <element label="Equipment No." max_length="40" name="u_equipment_no" type="string"/>
+        <element label="Expected Contract Month" max_length="40" name="u_expected_contract_month" type="string"/>
+        <element label="ex-Factory" max_length="40" name="u_ex_factory" type="string"/>
+        <element display="true" label="Functional Location" max_length="40" name="u_functional_location" reference="alm_hardware" type="reference"/>
+        <element label="im.Contract No" max_length="40" name="u_im_contract_no" type="string"/>
+        <element label="Installed on" max_length="40" name="u_installed_on" type="string"/>
+        <element label="Maintenance Contract Stage" max_length="40" name="u_maintainance_contract_stage" type="string"/>
+        <element label="Maintenance Start Alert" max_length="40" name="u_maintainance_start_alert" type="string"/>
+        <element label="Marketing Remark" max_length="4000" name="u_marketing_remark" type="string"/>
+        <element label="Region" max_length="100" name="u_region" type="string"/>
+        <element label="Region Code" max_length="40" name="u_region_code" type="string"/>
+        <element label="Sales Office" max_length="32" name="u_sales_office" type="string"/>
+        <element label="Sales Office Code" max_length="40" name="u_sales_office_code" type="string"/>
+        <element label="Sales Rep." max_length="40" name="u_sales_rep" type="string"/>
+        <element label="SAP Contract End Date (Latest)" max_length="40" name="u_sap_contract_date_latest" type="string"/>
+        <element label="SAP Contract Start Date (Latest)" max_length="40" name="u_sap_contract_date_latest0" type="string"/>
+        <element label="SSA Remark" max_length="4000" name="u_ssa_remark" type="string"/>
+        <element label="SSE Comments" max_length="4000" name="u_sse_comments" type="string"/>
+        <element label="SSE Employee ID" max_length="32" name="u_sse_employee_id" type="string"/>
+        <element label="SSE Name" max_length="100" name="u_sse_name" type="string"/>
+        <element label="SSM Comments" max_length="4000" name="u_ssm_comments" type="string"/>
+        <element label="Technical ID" max_length="40" name="u_technical_id" type="string"/>
+        <element label="Update Status" max_length="40" name="u_update_status" type="string"/>
+        <element label="Warranty End Date" max_length="40" name="u_warranty_end_date" type="string"/>
+        <element label="Warranty Start Date" max_length="40" name="u_warranty_start_date" type="string"/>
+        <index name="index">
+            <element name="u_sales_office"/>
+        </index>
+        <index name="index2">
+            <element name="u_sse_employee_id"/>
+        </index>
+        <index name="index3">
+            <element name="u_functional_location"/>
+        </index>
+    </element>
+</database>

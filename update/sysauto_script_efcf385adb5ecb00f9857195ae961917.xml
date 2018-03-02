@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>(SNJ) Populate FL to FL Comp Data relationship</name>
+        <run_as/>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-11-10 03:00:13</run_start>
+        <run_time>1969-12-31 15:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var count = 0;
+var flr = new GlideRecord('alm_hardware');
+var q = 'u_comp_dataISEMPTY';
+flr.addEncodedQuery(q);
+flr.query();
+
+while (flr.next()) {
+	var cdr = new GlideRecord('x_saghs_jp_qtm_ii_f');
+	cdr.addQuery('u_fl',flr.sys_id);
+	cdr.query();
+	
+	if (cdr.next()) {
+		flr.u_comp_data = cdr.sys_id;
+		//cdr.parent_fl = flr.sys_id;
+		flr.update();
+		//cdr.update();
+		count++;
+	}
+}
+
+gs.info(count+ " FL records updated");
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>Daniel Brewitt</sys_created_by>
+        <sys_created_on>2017-11-10 03:00:44</sys_created_on>
+        <sys_id>efcf385adb5ecb00f9857195ae961917</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>(SNJ) Populate FL to FL Comp Data relationship</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sysauto_script_efcf385adb5ecb00f9857195ae961917</sys_update_name>
+        <sys_updated_by>Shinsaku Kudomi</sys_updated_by>
+        <sys_updated_on>2018-02-22 03:59:43</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

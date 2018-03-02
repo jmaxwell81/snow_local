@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_saghs_jp_qtm.QuotePDFAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>QuotePDFAjax</name>
+        <script><![CDATA[var QuotePDFAjax = Class.create();
+QuotePDFAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getLatestPDFRecord: function (quote_sys_id){
+		var result = '';
+		var pdf_record = new GlideRecord('x_saghs_jp_qtm_quote_records_for_pdf');
+		pdf_record.addQuery('u_quote_no','' + quote_sys_id);
+		pdf_record.orderByDesc('sys_created_on');
+		pdf_record.setLimit(1);
+		pdf_record.query();
+		if(pdf_record.next()){
+			result = '' + pdf_record.sys_id;
+		}
+		return result;
+	},
+	
+	getLatestPDFRecordForClient: function (){
+		var result = '';
+		var quote_sys_id = this.getParameter('sysparm_quote_sys_id');
+		var pdf_record = new GlideRecord('x_saghs_jp_qtm_quote_records_for_pdf');
+		pdf_record.addQuery('u_quote_no','' + quote_sys_id);
+		pdf_record.orderByDesc('sys_created_on');
+		pdf_record.setLimit(1);
+		pdf_record.query();
+		if(pdf_record.next()){
+			result = '' + pdf_record.sys_id;
+		}
+		return result;
+	},
+	
+	/*修正の必要あり
+	getQuoteTotalAmmount: function (quote_sys_id){
+		var result = 0;
+		var quote = new GlideRecord('x_saghs_jp_qtm_quotation');
+		if(quote.get(quote_sys_id)){
+			result = quote.u_total_minus_discount;
+		}
+		return result;
+	},
+	*/
+
+    type: 'QuotePDFAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Shinsaku Kudomi</sys_created_by>
+        <sys_created_on>2018-01-13 22:46:21</sys_created_on>
+        <sys_id>56c0b20bdb2b4300aca3f7adae9619ae</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>QuotePDFAjax</sys_name>
+        <sys_package display_value="Quotation tool" source="x_saghs_jp_qtm">cf28678edb754300aca3f7adae9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Quotation tool">cf28678edb754300aca3f7adae9619be</sys_scope>
+        <sys_update_name>sys_script_include_56c0b20bdb2b4300aca3f7adae9619ae</sys_update_name>
+        <sys_updated_by>Shinsaku Kudomi</sys_updated_by>
+        <sys_updated_on>2018-01-14 00:38:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

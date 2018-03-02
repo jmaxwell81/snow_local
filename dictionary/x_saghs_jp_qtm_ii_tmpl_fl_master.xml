@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp FL Master" max_length="40" name="x_saghs_jp_qtm_ii_tmpl_fl_master" type="collection">
+        <element attributes="import_attribute_name=CUSTOMER_ID" label="CUSTOMER_ID" max_length="40" name="u_customer_id" type="integer"/>
+        <element attributes="import_attribute_name=DIRECT_TEL,edge_encryption_enabled=true" label="DIRECT_TEL" max_length="40" name="u_direct_tel" type="string"/>
+        <element attributes="import_attribute_name=EXT_TEL" label="EXT_TEL" max_length="40" name="u_ext_tel" type="integer"/>
+        <element attributes="import_attribute_name=FL,edge_encryption_enabled=true" label="FL" max_length="40" name="u_fl" type="string"/>
+        <element attributes="import_attribute_name=FL_3,edge_encryption_enabled=true" label="FL_3" max_length="40" name="u_fl_3" type="string"/>
+        <element attributes="import_attribute_name=GUARD_REPAIR" label="GUARD_REPAIR" max_length="40" name="u_guard_repair" type="integer"/>
+        <element attributes="import_attribute_name=GUARD_RESP" label="GUARD_RESP" max_length="40" name="u_guard_resp" type="integer"/>
+        <element attributes="import_attribute_name=GUARD_TYPE,edge_encryption_enabled=true" label="GUARD_TYPE" max_length="40" name="u_guard_type" type="string"/>
+        <element attributes="import_attribute_name=INSTALL_DATE" label="INSTALL_DATE" max_length="40" name="u_install_date" type="glide_date"/>
+        <element attributes="import_attribute_name=LOCATION,edge_encryption_enabled=true" label="LOCATION" max_length="40" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=MATERIAL_0,edge_encryption_enabled=true" label="MATERIAL_0" max_length="40" name="u_material_0" type="string"/>
+        <element attributes="import_attribute_name=MATERIAL_1" label="MATERIAL_1" max_length="40" name="u_material_1" type="integer"/>
+        <element attributes="import_attribute_name=MATERIAL_2" label="MATERIAL_2" max_length="40" name="u_material_2" type="integer"/>
+        <element attributes="import_attribute_name=MODEL_TYPE,edge_encryption_enabled=true" label="MODEL_TYPE" max_length="40" name="u_model_type" type="string"/>
+        <element attributes="import_attribute_name=MODEM_TEL,edge_encryption_enabled=true" label="MODEM_TEL" max_length="40" name="u_modem_tel" type="string"/>
+        <element attributes="import_attribute_name=MORE_1,edge_encryption_enabled=true" label="MORE_1" max_length="60" name="u_more_1" type="string"/>
+        <element attributes="import_attribute_name=MORE_2,edge_encryption_enabled=true" label="MORE_2" max_length="255" name="u_more_2" type="string"/>
+        <element attributes="import_attribute_name=MSG_CSE,edge_encryption_enabled=true" label="MSG_CSE" max_length="40" name="u_msg_cse" type="string"/>
+        <element attributes="import_attribute_name=MSG_DI,edge_encryption_enabled=true" label="MSG_DI" max_length="255" name="u_msg_di" type="string"/>
+        <element attributes="import_attribute_name=NIGHT_TEL,edge_encryption_enabled=true" label="NIGHT_TEL" max_length="40" name="u_night_tel" type="string"/>
+        <element attributes="import_attribute_name=OVER_TIME1_SV,edge_encryption_enabled=true" label="OVER_TIME1_SV" max_length="40" name="u_over_time1_sv" type="string"/>
+        <element attributes="import_attribute_name=OVER_TIME2_SV,edge_encryption_enabled=true" label="OVER_TIME2_SV" max_length="40" name="u_over_time2_sv" type="string"/>
+        <element attributes="import_attribute_name=OVER_TIME3_SV,edge_encryption_enabled=true" label="OVER_TIME3_SV" max_length="40" name="u_over_time3_sv" type="string"/>
+        <element attributes="import_attribute_name=OVER_TIME4_SV,edge_encryption_enabled=true" label="OVER_TIME4_SV" max_length="40" name="u_over_time4_sv" type="string"/>
+        <element attributes="import_attribute_name=PG,edge_encryption_enabled=true" label="PG" max_length="40" name="u_pg" type="string"/>
+        <element attributes="import_attribute_name=ROOM_NO,edge_encryption_enabled=true" label="ROOM_NO" max_length="40" name="u_room_no" type="string"/>
+        <element attributes="import_attribute_name=SAP_CUSTOMER_ID" label="SAP_CUSTOMER_ID" max_length="40" name="u_sap_customer_id" type="float"/>
+        <element attributes="import_attribute_name=SAP_ROOM_NO,edge_encryption_enabled=true" label="SAP_ROOM_NO" max_length="40" name="u_sap_room_no" type="string"/>
+        <element attributes="import_attribute_name=segment_RUN2,edge_encryption_enabled=true" label="segment_RUN2" max_length="40" name="u_segment_run2" type="string"/>
+        <element attributes="import_attribute_name=SERIAL_NUMBER,edge_encryption_enabled=true" label="SERIAL_NUMBER" max_length="40" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=TECH_ID,edge_encryption_enabled=true" label="TECH_ID" max_length="40" name="u_tech_id" type="string"/>
+        <element attributes="import_attribute_name=VALID_FL,edge_encryption_enabled=true" label="VALID_FL" max_length="40" name="u_valid_fl" type="string"/>
+        <element attributes="import_attribute_name=WARNING_MSG,edge_encryption_enabled=true" label="WARNING_MSG" max_length="255" name="u_warning_msg" type="string"/>
+        <element attributes="import_attribute_name=WARNING_MSG_CA,edge_encryption_enabled=true" label="WARNING_MSG_CA" max_length="73" name="u_warning_msg_ca" type="string"/>
+        <element attributes="import_attribute_name=WAR_EXP" label="WAR_EXP" max_length="40" name="u_war_exp" type="glide_date"/>
+        <element attributes="import_attribute_name=WAR_STA" label="WAR_STA" max_length="40" name="u_war_sta" type="glide_date"/>
+        <element attributes="import_attribute_name=WBS_RUN2,edge_encryption_enabled=true" label="WBS_RUN2" max_length="40" name="u_wbs_run2" type="string"/>
+        <element attributes="import_attribute_name=WC,edge_encryption_enabled=true" label="WC" max_length="40" name="u_wc" type="string"/>
+    </element>
+</database>
